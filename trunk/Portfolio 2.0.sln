@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Z:\...\Portfolio 2.0\", "Z:\Projects\asp\Portfolio 2.0\", "{9AB10F84-B42D-470C-B99E-EA9A0229952A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Portfolio 2.0"
+		Debug.AspNetCompiler.PhysicalPath = "Z:\Projects\asp\Portfolio 2.0\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Portfolio 2.0\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Portfolio 2.0"
+		Release.AspNetCompiler.PhysicalPath = "Z:\Projects\asp\Portfolio 2.0\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Portfolio 2.0\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3622"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AB10F84-B42D-470C-B99E-EA9A0229952A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{9AB10F84-B42D-470C-B99E-EA9A0229952A}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
