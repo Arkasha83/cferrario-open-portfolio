@@ -1,0 +1,74 @@
+table.body{
+background-color:#BBBBBB;
+border-color:#376291;
+border-style:solid;
+border-width:1px;
+width:100%;
+}
+
+table.menu{
+background-color:#FFFFFF;
+border-color:#376291;
+border-style:solid;
+border-width:1px;
+border-collapse:collapse;
+width:100%;
+}
+
+table.cadre{
+background-color:#FFFFFF;
+border-color:#376291;
+border-style:solid;
+border-width:1px;
+border-collapse:collapse;
+width:100%;
+}
+
+table.invisible{
+border-width:0px;
+width:100%;
+}
+
+td.cadre{
+background-color:#DDDDDD;
+border-color:#376291;
+border-style:dashed;
+border-width:1px;
+border-collapse:collapse;
+width:100%;
+}
+
+.cv a:link{ 
+	text-decoration:none;
+	color:#101C29;
+	font-weight:bold;
+	text-decoration: underline; 
+}
+
+.cv a:visited{
+	text-decoration:none;
+	color:#101C29;
+	font-weight:bold;
+	text-decoration: underline; 
+}
+	
+.cv a:hover{
+	text-decoration:none;
+	color:rgb(21,149,44);
+	font-weight:bold;
+	text-decoration: underline; 
+}
+	
+.cv a:active{
+	text-decoration:none;
+	color:rgb(21,149,44);
+	font-weight:bold;
+	text-decoration: underline; 
+}
+	
+	
+.title {
+	font-size :larger;
+	font-weight : bold;
+	color : #0000CC;
+}

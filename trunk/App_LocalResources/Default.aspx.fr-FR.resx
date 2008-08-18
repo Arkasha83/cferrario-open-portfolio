@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BioRsc.Text" xml:space="preserve">
+    <value>&lt;div class="container"&gt;
+Bienvenu sur chris-ferrario.com et merci de votre visite.&lt;br/&gt;&lt;br/&gt;
+J'ai construit ce site pour présenter mes expériences et mes aquis.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+
+&lt;span class="texttitle"&gt;Qui suis-je?&lt;/span&gt;
+&lt;br&gt;&lt;br&gt;
+Mon nom est Christian Ferrario, je suis un programmeur de 24 ans qui vis pour l'instant en France à Paris mais je me prépare à retourner à New York.&lt;br&gt;&lt;br&gt;
+Je suis né à Mount Kisco, New York en 1983 mais j'ai grandi à Paris. Ma mère est Américaine et mon père Italien; je possède ces deux nationalitées et je parle Anglais, Français et Italien. Je peux aussi me faire comprendre en espagnol et je connais des bases d'Allemand et de Chinois (Mandarin). Je pense que la connaissance de ces langues m'a beaucoup aidé à aprendre différents langages de programmation.&lt;br&gt;&lt;br&gt; 
+J'ai décidé de devenir programmeur il y a quatre ans, je n'avais jamais fait de programmation au préalable. J'ai choisi d'integrer une école de programmation généraliste plutôt qu'une école de jeux car je voulais être confronté a plusieurs points de vue et connaître plusieurs domaines afin de pouvoir m'adapter à toute situation. J'aprécie beaucoup apprendre de nouvelles choses et je lis régulièrement des livres de programmation ou des tutoriaux, spécifiquement sur le milieu du game dev.&lt;br&gt;&lt;br&gt; 
+J'ai maintenant un an d'expérience ainsi que deux jeux dont j'ai été lead programmeur qui sont disponibles dans le commerce.&lt;br&gt;&lt;br&gt;
+&lt;span class="texttitle"&gt;Le futur est aujourd'hui et je veux en faire partie!&lt;/span&gt;
+&lt;br&gt;&lt;br&gt;
+
+Après avoir travaillé un an comme gérant de cybercafé, je me suis rendu compte de la croissance de l'industrie du jeu vidéo. Ayant toujours un coté créatif, j'ai décidé que jouer aux je ne me suffirait pas, je voulais aussi les créer. C'est à ce moment que je quittait mes études en langues pour démarrer une école informatique, sans avoir de connaissances particulières, un choix que je n'ai jamais regretté.&lt;br&gt;&lt;br&gt;
+Je suis depuis tombé amoureux de la programmataion en général et surtout la programmation orientée objet. Je reste toujours fasciné par des algorithmes ou des interfaces bien conçus.&lt;br&gt;
+Après trois ans d'études ainsi qu'un an à &lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; à Paris, où j'ai connu le monde merveilleux de la programmation bitwise et de l'optimisation bas niveau des jeux mobiles en Java. Je suis maintenant prêt à affronter la prochaine étape de mon voyage : les USA!&lt;br&gt;&lt;br&gt;
+
+&lt;span class="texttitle"&gt;Ce que je peux vous apporter&lt;br&gt;&lt;br&gt;&lt;/span&gt;
+	
+Je pense que je pourrais être un employé productif pour plusieurs raisons, je suis patient, ambitieux, j'ai a appris à faire des recherches utiles et je suis assez humble pour poser des questions quand nécessaire, mais mon atout principal est la persévérance. Je n'ai pas peur de travailler dur, je veux travailler dur pour avoir l'opportunité d'apprendre et travailler avec les meilleurs.&lt;br&gt;&lt;br&gt;
+
+Je suis maintenant prêt à me servir des outils aquis lors de mes études et les techniques aprises lors de mon expérience professionnelle pour aider à créer les solutions pour vos besoins en programmation!&lt;br&gt;&lt;br&gt;
+
+&lt;span class="texttitle"&gt;Ce que je peux déjà faire&lt;br&gt;&lt;br&gt;&lt;/span&gt;
+		
+J'ai mis en place ce Portfolio pour mettre en avant les connaissances avec lesquels j'aimerais faire carrière. Ma plus grande expérience prêt à l'emploi est en technologie Java mobile après avoir produit avec DeValley deux jeux commerciaux en tant que lead programmeur: &lt;b&gt;Nowhere&lt;/b&gt; et &lt;b&gt;The Spiderwick Chronicles&lt;/b&gt;, pourtant j'ai récemment beaucoup apprécié travailler en C# et j'essaye de m'en servir le plus souvent possible comme avec par exemple ce site en ASP.NET/AJAX et en apprenant sur mon temps libre la technologie XNA de Microsoft.&lt;br&gt;
+
+J'ai aussi travaillé en C++ lors d'un projet scolaire Ogre/Newton de 6 mois.&lt;br&gt;&lt;br&gt;
+
+Mais au final ce ne sont pas les langages qui m'importent mais les concepts,But all in all the language doesn't matter that much to me, it's the concepts, routines and Dev Gems that really fascinate me.
+
+&lt;br&gt;J'ai aussi fait la liste de mes connaissances sur la partie CV de mon site.
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Si vous ne me croyez pas, faites plutôt confiance à Chuck!
+&lt;br&gt;&lt;br&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Christian Ferrario - Programmeur de jeux</value>
+  </data>
+  <data name="TabPanel1Resource1.HeaderText" xml:space="preserve">
+    <value>Bio</value>
+  </data>
+  <data name="TabPanel2Resource1.HeaderText" xml:space="preserve">
+    <value>Expérience Pro</value>
+  </data>
+  <data name="TabPanel3Resource1.HeaderText" xml:space="preserve">
+    <value>Projets Scolaires</value>
+  </data>
+  <data name="TabPanel4Resource1.HeaderText" xml:space="preserve">
+    <value>Projets Perso</value>
+  </data>
+  <data name="TabPanel5Resource1.HeaderText" xml:space="preserve">
+    <value>CV</value>
+  </data>
+  <data name="TabPanel6Resource1.HeaderText" xml:space="preserve">
+    <value>Examples de Code</value>
+  </data>
+</root>
