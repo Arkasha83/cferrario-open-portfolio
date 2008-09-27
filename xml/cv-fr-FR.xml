@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<?xml-stylesheet type="text/xsl" href="xml/cv.xsl"?>
 <!--
 		
 	October 2006,
@@ -15,12 +15,13 @@
 <page>
   <title>Chris Ferrario - CV en Français</title>
 
+
   <address>
     <name>Christian Ferrario</name>
-    <street>51 rue Mirabeau</street>
-    <city>Ivry-sur-Seine</city>
-    <zip>94200</zip>
-    <country>FRANCE</country>
+    <street>26 Valeria circle</street>
+    <city>North Salem, NY</city>
+    <zip>10560</zip>
+    <country>USA</country>
     <email>chris_ferrario@hotmail.com</email>
   </address>
 
@@ -40,6 +41,16 @@
 
     <proexperience>
       <text>Professional Experience</text>
+      <job>
+        <time>July 2007/Aujourd'hui</time>
+        <company>Gameloft</company>
+        <link>http://www.gameloft.com/</link>
+        <location>New York City</location>
+        <position>Programmeur Gameplay</position>
+        <note>
+          <text>Travail sur un projet en develloppement</text>
+        </note>
+      </job>
       <job>
         <time>Août 2007/Février 2008</time>
         <company>DeValley Entertainment</company>
@@ -63,6 +74,9 @@
         </note>
         <note>
           <text>Participation  la programmation, au debugage et/ou au portage de la plupart des jeux DeValley dont Nowhere, Holy Wars, Crash of the Titans, Landers</text>
+        </note>
+        <note>
+          <text>Nominé pour Meilleur Jeu Mobile 2008 avec le projet "Landers" au Festival du Jeu Vidéo</text>
         </note>
       </job>
       <job>

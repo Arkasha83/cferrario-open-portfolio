@@ -15,9 +15,10 @@
 <page>
   <title>Chris Ferrario - English Resume</title>
 
+
   <address>
     <name>Christian Ferrario</name>
-    <street>(Future address)26 Valeria circle</street>
+    <street>26 Valeria circle</street>
     <city>North Salem, NY</city>
     <zip>10560</zip>
     <country>USA</country>
@@ -41,6 +42,16 @@
     <proexperience>
       <text>Professional Experience</text>
       <job>
+        <time>July 2008/Today</time>
+        <company>Gameloft</company>
+        <link>http://www.gameloft.com/</link>
+        <location>New York City</location>
+        <position>Gameplay Programmer</position>
+        <note>
+          <text>Working on unnammed project</text>
+        </note>
+      </job>
+      <job>
         <time>August 2007/Februrary 2008</time>
         <company>DeValley Entertainment</company>
         <link>http://www.devalley-entertainment.com/</link>
@@ -63,6 +74,9 @@
         </note>
         <note>
           <text>Programmed parts and/or took part in debugging and porting on most of the DeValley games such as Nowhere, Holy Wars, Crash of the Titans, Landers</text>
+        </note>
+        <note>
+          <text>Nominated for 2008 Best French Mobile Game with project "Landers" at the French video game festival (Festival du Jeu Vidéo)</text>
         </note>
       </job>
       <job>
