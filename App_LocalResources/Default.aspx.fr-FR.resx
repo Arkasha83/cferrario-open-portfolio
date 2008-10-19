@@ -22,7 +22,9 @@
     <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
         <value>[base64 mime encoded serialized .NET Framework object]</value>
     </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <data name="Icon1" 
+		type="System.Drawing.Icon, System.Drawing" 
+		mimetype="application/x-microsoft.net.object.bytearray.base64">
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
@@ -59,7 +61,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+			xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -112,10 +115,12 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, 
+		Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, 
+		PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BioRsc.Text" xml:space="preserve">
     <value>&lt;div class="container"&gt;
@@ -128,12 +133,18 @@ Qui suis-je?
 &lt;/span&gt;
 &lt;br&gt;&lt;br&gt;
 
-Mon nom est Christian Ferrario, je suis un programmeur de 25 ans qui a grandi en France et vis aux US depuis cette année.&lt;br&gt;&lt;br&gt;
-Je suis Italo-Américain et je parle Anglais, Français et Italien. Je peux aussi me faire comprendre en espagnol et je connais des bases d'Allemand et de Chinois (Mandarin). 
-Je pense que la connaissance de ces langues m'a beaucoup aidé à aprendre différents langages de programmation.&lt;br&gt;&lt;br&gt; 
+Mon nom est Christian Ferrario, je suis un programmeur de 25 ans qui a grandi en France et vis aux US depuis cette année.
+&lt;br&gt;&lt;br&gt;
+Je suis Italo-Américain et je parle Anglais, Français et Italien. Je peux aussi me faire comprendre en espagnol et je 
+connais des bases d'Allemand et de Chinois (Mandarin). 
+Je pense que la connaissance de ces langues m'a beaucoup aidé à aprendre différents langages de programmation.
+&lt;br&gt;&lt;br&gt; 
 J'ai décidé de devenir programmeur il y a quatre ans, je n'avais jamais fait de programmation au préalable. 
-J'ai choisi d'integrer une école de programmation généraliste plutôt qu'une école de jeux car je voulais être confronté a plusieurs points de vue et connaître plusieurs domaines afin de pouvoir m'adapter à toute situation. 
-J'aprécie beaucoup apprendre de nouvelles choses et je lis régulièrement des livres de programmation ou des tutoriaux, spécifiquement sur le milieu du game dev.&lt;br&gt;&lt;br&gt; 
+J'ai choisi d'integrer une école de programmation généraliste plutôt qu'une école de jeux car je voulais être confronté a 
+plusieurs points de vue et connaître plusieurs domaines afin de pouvoir m'adapter à toute situation. 
+J'aprécie beaucoup apprendre de nouvelles choses et je lis régulièrement des livres de programmation ou des tutoriaux, 
+spécifiquement sur le milieu du game dev.&lt;br&gt;&lt;br&gt; 
+J'ai maintenant presque deux ans d'expérience professionnelle sur 6 projets commerciaux.
 &lt;br&gt;&lt;br&gt;
 
 
@@ -144,7 +155,9 @@ Que fais-je?
 
 Après avoir travaillé un an comme gérant de cybercafé, je me suis rendu compte de la croissance de l'industrie du jeu vidéo. 
 Ayant toujours un coté créatif, j'ai décidé que jouer aux je ne me suffirait pas, je voulais aussi les créer. 
-C'est à ce moment que je quittait mes études en langues pour démarrer une école informatique, sans avoir de connaissances particulières, un choix que je n'ai jamais regretté.&lt;br&gt;&lt;br&gt;
+C'est à ce moment que je quittait mes études en langues pour démarrer une école informatique, sans avoir de connaissances 
+particulières, un choix que je n'ai jamais regretté.
+&lt;br&gt;&lt;br&gt;
 Je suis depuis tombé amoureux de la programmataion en général et surtout la programmation orientée objet.&lt;br&gt;
 Après trois ans d'études ainsi qu'un an à 
 &lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; 
@@ -159,6 +172,7 @@ Qu'ai-je fait?
 &lt;br&gt;&lt;br&gt;&lt;/span&gt;
 
 J'ai travaillé sur cinq projets professionels avec DeValley Entertainement entre 2007 et 2008.
+J'ai aussi travaillé sur un projet Gameloft à venir.
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -188,6 +202,10 @@ En tant que programmeur support:
 &lt;b&gt;Crash of the Titans&lt;/b&gt;
 (publié par Vivendi Universal Games Mobile)
 &lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Jeu mobile Gameloft&lt;/b&gt;
+A venir.
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -199,9 +217,14 @@ Ce que je peux déjà faire
 		
 J'ai mis en place ce Portfolio pour mettre en avant les connaissances avec lesquels j'aimerais faire carrière. 
 Ma plus grande expérience prêt à l'emploi est en technologie Java mobile.
-pourtant j'ai récemment beaucoup apprécié travailler en C# et j'essaye de m'en servir le plus souvent possible comme avec par exemple ce site en ASP.NET/AJAX et en apprenant sur mon temps libre la technologie XNA de Microsoft.&lt;br&gt;
+Je suis aussi beaucoup interressé par le devloppement sur Android et j'ai pu créer un clone de Tetris totalement
+fonctionel (disponible &lt;a href="http://code.google.com/p/androidtetris/"&gt;ici&lt;/a&gt;). 
+J'ai récemment beaucoup apprécié travailler en C# et j'essaye de m'en servir le plus souvent possible comme avec par exemple 
+ce site en ASP.NET/AJAX 
+et en apprenant sur mon temps libre la technologie XNA de Microsoft.&lt;br&gt;
 J'ai aussi travaillé en C++ lors d'un projet scolaire Ogre/Newton de 6 mois.&lt;br&gt;&lt;br&gt;
-Mais au final ce ne sont pas les langages qui m'importent mais les concepts,But all in all the language doesn't matter that much to me, it's the concepts, routines and Dev Gems that really fascinate me.
+Mais au final ce ne sont pas les langages qui m'importent mais les concepts, et les algorithmes 
+qui me plaisent le plus.
 
 &lt;br&gt;J'ai aussi fait la liste de mes connaissances sur la partie CV de mon site.
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;

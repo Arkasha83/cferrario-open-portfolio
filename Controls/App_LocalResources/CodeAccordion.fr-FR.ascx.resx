@@ -132,9 +132,8 @@
 &lt;/ul&gt;</value>
   </data>
   <data name="JavaResource.Text" xml:space="preserve">
-    <value>The Java code I was the most serious about belongs to DeValley Entertainment and is used in cell phone games such as Nowhere or The Spiderwick Chronicles. Instead, here is one class from my homemade project Barbu Dent Bleu Soccer: Playfield. It's mostly uncommented but really doesn't do a whole lot of complicated stuff. It's update method is called by the main loop and it manages most of the gameplay as well as most of the display. This class also features some bitwise programming, a must know in mobile programming whenever handling small chunks of data.
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="download/Playfield.java.txt"&gt;Playfield.java&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>The Java code I was the most serious about belongs to DeValley Entertainment and is used in cell phone games such as Nowhere or The Spiderwick Chronicles. 
+	However my Tetris for Android is totally open source and available on google code &lt;a href="http://code.google.com/p/androidtetris/"&gt;http://code.google.com/p/androidtetris/&lt;/a&gt;
+	</value>
   </data>
 </root>

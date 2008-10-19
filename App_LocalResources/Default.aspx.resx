@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -22,7 +22,9 @@
     <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
         <value>[base64 mime encoded serialized .NET Framework object]</value>
     </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <data name="Icon1" 
+		type="System.Drawing.Icon, System.Drawing" 
+		mimetype="application/x-microsoft.net.object.bytearray.base64">
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
@@ -59,7 +61,8 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+			xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -112,10 +115,12 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, 
+		Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, 
+		PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BioRsc.Text" xml:space="preserve">
     <value>&lt;div class="container"&gt;
@@ -128,12 +133,18 @@ Who am I?
 &lt;/span&gt;
 &lt;br&gt;&lt;br&gt;
 
-My name is Christian Ferrario, I am a 25 year old programmer raised in France and in the US since this year.&lt;br&gt;&lt;br&gt;
-I am Italian-American and can speak English, French and Italian. I can also communicate in Spanish and know the basics of German and Mandarin. 
-I believe that knowing these languages were a big help for me when switching between programming languages.&lt;br&gt;&lt;br&gt; 
-I've wanted to be a game programmer for about 4 years now, i had no programming skills prior to that. 
-I chose to go to a general programming school rather than a game programming school because I really wanted to learn from all different fields and have an all-around view of programming to be able to adapt to any situation. 
-I really enjoy learning new things and have been feeding on game programming books and online tutorials throughout my education to be able to take my school projects a little further and turn them into games.&lt;br&gt;&lt;br&gt; I now have one year of professional experience under my belt as well as two projects that are sold commercially.
+My name is Christian Ferrario, I am a 25 year old programmer raised in France and in the US since this year.
+&lt;br&gt;&lt;br&gt;
+I am Italian-American and can speak English, French and Italian. I can also communicate in Spanish and know the basics 
+of German and Mandarin. 
+I believe that knowing these languages were a big help for me when switching between programming languages.
+&lt;br&gt;&lt;br&gt; 
+I've wanted to be a game programmer since about 5 years ago, i had no programming skills prior to that. 
+I chose to go to a general programming school rather than a game programming school because I really wanted to learn 
+from all different fields and have an all-around view of programming to be able to adapt to any situation. 
+I really enjoy learning new things and have been feeding on game programming books and online tutorials throughout 
+my education to be able to take my school projects a little further and turn them into games.&lt;br&gt;&lt;br&gt; 
+I now have close to two years of professional experience under my belt as well as six projects that are sold commercially.
 &lt;br&gt;&lt;br&gt;
 
 
@@ -144,9 +155,11 @@ What am I doing?
 
 After working a year as a cybercafe manager, I realized how important the gaming industry was becoming. 
 Having always been creative, I decided that playing games wouldn't be enough, I wanted to make them. 
-This is when I quit literary studies and enrolled into a computer school without any programming knowledge, a choice I have never regretted.&lt;br&gt;&lt;br&gt; 
+This is when I quit literary studies and enrolled into a computer school without any programming knowledge, 
+a choice I have never regretted.
+&lt;br&gt;&lt;br&gt; 
 I have since then fallen in love with programming on a larger scale, especially when object oriented.&lt;br&gt;
-After two and a half years worth of training through school projects in addition to a year working at 
+After three years worth of training through school projects in addition to a year working at 
 &lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; 
 in Paris, where i learned the wonderful world of bitwise programming and low level optimizing in Java Mobile Games, 
 I joined 
@@ -159,6 +172,7 @@ What I have done?
 &lt;br&gt;&lt;br&gt;&lt;/span&gt;
 
 I have worked on five commercial projects with DeValley Entertainement during 2007 and 2008.
+I also worked on one unnamed mobile game for Gameloft.
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -188,6 +202,10 @@ As a support programmer:
 &lt;b&gt;Crash of the Titans&lt;/b&gt;
 (published by Vivendi Universal Games Mobile)
 &lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;Unnamed Gameloft game&lt;/b&gt;
+To be released later.
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -199,10 +217,14 @@ What I can already do
 		
 I have set up this Portfolio to display the skills with which I am hoping to make a career out of. 
 Most of my ready-to-use experience is in Java mobile technology.
-However I have recently fallen in love with C# and am trying to use it as much as possible like with this site coded in ASP.NET/AJAX 
+I have also been involved with programming for the Android operating system and have develloped a fully functioning
+Tetris clone for it (available &lt;a href="http://code.google.com/p/androidtetris/"&gt;here&lt;/a&gt;). 
+I also enjoy working in C# and am trying to use it as much as possible like with this 
+site coded in ASP.NET/AJAX 
 and in my spare time when I am self-teaching myself Microsoft's XNA.
 I have also worked with C++ in an Ogre/Newton based 6 month project in school.
-But all in all the language doesn't matter that much to me, it's the concepts, routines and Dev Gems that really fascinate me.
+But all in all the language doesn't matter that much to me, it's the concepts, routines and Dev Gems that 
+really fascinate me.
 
 &lt;br&gt;I also have listed my skills and aptitudes in my Resume site.
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;

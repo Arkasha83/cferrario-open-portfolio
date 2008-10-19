@@ -81,6 +81,12 @@ public class SlideService2  : System.Web.Services.WebService {
     }
     
     
+    [WebMethod]
+    public Slide[] GetSlidesAndroid()
+    {
+        return GetSlides("img/ss/androidtetris/");
+    }
+    
 
     [WebMethod]
     private Slide[] GetSlides(String path)
