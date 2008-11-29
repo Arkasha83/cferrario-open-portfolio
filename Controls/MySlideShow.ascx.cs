@@ -41,6 +41,8 @@ public partial class Controls_MySlideShow : System.Web.UI.UserControl
             SlideShowExtender1.SlideShowServiceMethod = "GetSlidesTorque";
         else if (Type.Equals("Android"))
             SlideShowExtender1.SlideShowServiceMethod = "GetSlidesAndroid";
+        else if (Type.Equals("Spooks"))
+            SlideShowExtender1.SlideShowServiceMethod = "GetSlidesSpooks";
         
     }
 

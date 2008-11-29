@@ -79,7 +79,12 @@ public class SlideService2  : System.Web.Services.WebService {
     {
         return GetSlides("img/ss/xna/");
     }
-    
+
+    [WebMethod]
+    public Slide[] GetSlidesSpooks()
+    {
+        return GetSlides("img/ss/spooks/");
+    }
     
     [WebMethod]
     public Slide[] GetSlidesAndroid()
