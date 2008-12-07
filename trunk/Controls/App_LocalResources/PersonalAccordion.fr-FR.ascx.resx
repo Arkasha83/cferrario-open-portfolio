@@ -137,9 +137,6 @@ And finally, this game only weighs 64k!</value>
   <data name="TorqueResource.Text" xml:space="preserve">
     <value>I have just purchased the Torque Game engine Licence and am starting to go through some tutorials.&lt;br&gt;&lt;br&gt;</value>
   </data>
-  <data name="XNAResource.Text" xml:space="preserve">
-    <value>I have been checking out XNA since its public release. I read two books on XNA Programming and gone through many tutorials and video tutorials. I have started building a custom game engine but I am still waiting to see if there will be a good 3D physics engine that can be integrated in an XNA project.</value>
-  </data>
   <data name="AndroidResource.Text" xml:space="preserve">
     <value>I have programmed a fully functional Tetris clone for Android. It is available as an open source project on Google code &lt;a href="http://code.google.com/p/androidtetris/"&gt;http://code.google.com/p/androidtetris/&lt;/a&gt; .&lt;br&gt;&lt;br&gt;</value>
   </data>

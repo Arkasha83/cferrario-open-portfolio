@@ -8,6 +8,29 @@
                     FadeTransitions="True" TransitionDuration="250" FramesPerSecond="40"
                     RequireOpenedPane="False" SuppressHeaderPostbacks="True" meta:resourcekey="BaseAccordionResource" >
     <Panes>
+        <ajaxToolkit:AccordionPane ID="XNA" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
+            <Header>
+                 <a href="" onclick="return false;">XNA Tetris</a>
+            
+            </Header>
+            <Content>
+                <table style="width:96%">
+                    <tr>
+                        <td valign="top">
+                            <asp:Localize runat="server" 
+                                ID="XNAText" 
+                                meta:resourcekey="XNAResource"></asp:Localize>
+
+                        </td>
+                        <td style="width:200px" align="center">
+                            <myControls:MySlideShow runat="server" ID="XNASlideShow" Type="XNA" />
+
+                        </td>
+                    </tr>
+                </table>
+            
+            </Content>
+        </ajaxToolkit:AccordionPane>
         <ajaxToolkit:AccordionPane ID="AndroidTetris" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
             <Header>
                  <a href="" onclick="return false;">Android Tetris</a>
@@ -45,29 +68,6 @@
                         </td>
                         <td style="width:200px" align="center">
                             <myControls:MySlideShow runat="server" ID="BarbuSlideShow" Type="Barbu" />
-
-                        </td>
-                    </tr>
-                </table>
-            
-            </Content>
-        </ajaxToolkit:AccordionPane>
-        <ajaxToolkit:AccordionPane ID="XNA" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
-            <Header>
-                 <a href="" onclick="return false;">XNA Projects</a>
-            
-            </Header>
-            <Content>
-                <table style="width:96%">
-                    <tr>
-                        <td valign="top">
-                            <asp:Localize runat="server" 
-                                ID="XNAText" 
-                                meta:resourcekey="XNAResource"></asp:Localize>
-
-                        </td>
-                        <td style="width:200px" align="center">
-                            <myControls:MySlideShow runat="server" ID="XNASlideShow" Type="XNA" />
 
                         </td>
                     </tr>
