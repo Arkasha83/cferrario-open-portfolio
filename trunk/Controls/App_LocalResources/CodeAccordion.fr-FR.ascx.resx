@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CplusResource.Text" xml:space="preserve">
-    <value>This is a C++ class used in the school project TOC to generate Sound detection Events. Sound detection is an AI feature that needed for an object to know and react when another object entered a bounding 'sound range sphere'
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="download/SoundDetector.h"&gt;SoundDetector.h&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="download/SoundDetector.cpp"&gt;SoundDetector.cpp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</value>
-  </data>
-  <data name="CsharpResource.Text" xml:space="preserve">
-    <value>I have most of my C# knowledge using ASP.NET (this site for example) and enjoy the C# code. I also have started a custom XNA game engine; the class I chose as an example is my audio manager. &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="download/Audio.cs.txt"&gt;Audio.cs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</value>
-  </data>
-  <data name="JavaResource.Text" xml:space="preserve">
-    <value>The Java code I was the most serious about belongs to DeValley Entertainment and is used in cell phone games such as Nowhere or The Spiderwick Chronicles. 
-	However my Tetris for Android is totally open source and available on google code &lt;a href="http://code.google.com/p/androidtetris/"&gt;http://code.google.com/p/androidtetris/&lt;/a&gt;
-	</value>
-  </data>
 </root>
