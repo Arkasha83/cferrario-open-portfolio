@@ -21,7 +21,7 @@
         </ajaxToolkit:AccordionPane>
         <ajaxToolkit:AccordionPane ID="Cplus" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="CplusResource1">
             <Header>
-                <a href="" onclick="return false;">C++</a>
+                <a href="" onclick="return false;">C/C++</a>
             </Header>
             <Content>
                 <asp:Localize runat="server" 

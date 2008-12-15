@@ -118,18 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CplusResource.Text" xml:space="preserve">
-    <value>This is a C++ class used in the school project TOC to generate Sound detection Events. Sound detection is an AI feature that needed for an object to know and react when another object entered a bounding 'sound range sphere'
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="download/SoundDetector.h"&gt;SoundDetector.h&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="download/SoundDetector.cpp"&gt;SoundDetector.cpp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>I have worked as Project Manager/Lead Programmer on a 6 month 3D C++ Ogre/Newton project. Here is the source code for it : &lt;a href="download/TOC/source code.rar"&gt;source code&lt;/a&gt;
+I am also now involved with homebrew DS programming and will release the code shortly.</value>
   </data>
   <data name="CsharpResource.Text" xml:space="preserve">
-    <value>I have most of my C# knowledge using ASP.NET (this site for example) and enjoy the C# code. I also have started a custom XNA game engine; the class I chose as an example is my audio manager. &lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="download/Audio.cs.txt"&gt;Audio.cs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</value>
+    <value>I have experience some of my C# knowledge using ASP.NET (this site for example &lt;a href="http://code.google.com/p/cferrario-open-portfolio/source/checkout"&gt; http://code.google.com/p/cferrario-open-portfolio/source/checkout&lt;/a&gt; ) and enjoy C# code. I also have some XNA experience having ported my custom Tetris game onto the XNA engine : &lt;a href="http://code.google.com/p/xnatetris/source/checkout"&gt;http://code.google.com/p/xnatetris/source/checkout&lt;/a&gt;</value>
   </data>
   <data name="JavaResource.Text" xml:space="preserve">
     <value>The Java code I was the most serious about belongs to DeValley Entertainment and is used in cell phone games such as Nowhere or The Spiderwick Chronicles. 
