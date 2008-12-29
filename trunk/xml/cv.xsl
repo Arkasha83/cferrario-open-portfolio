@@ -131,95 +131,6 @@
 <br/>
 
 <div class="title">
-  <xsl:value-of select="page/cv/school-project/text"/>
-</div>
-<table id="school" class="collapsible" width="100%" border="0">
-  <xsl:for-each select="page/cv/school-project/project">
-    <tr>
-      <td width="200px" align="left" class="title">
-
-        <a>
-          <xsl:choose>
-            <xsl:when test="link">
-              <xsl:attribute name="href">
-                <xsl:value-of select="link" />
-              </xsl:attribute>
-            </xsl:when>
-          </xsl:choose>
-          <xsl:attribute name="target">new</xsl:attribute>
-          <xsl:value-of select="name"></xsl:value-of>
-          </a>
-      </td>
-      <td align="left">
-        <xsl:value-of select="time"></xsl:value-of>
-      </td>
-      <td align="right">
-        <i>
-          <xsl:value-of select="sem"></xsl:value-of>
-        </i>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        <b>
-          <xsl:value-of select="role"></xsl:value-of>
-        </b>
-        <br></br>
-        <i>
-          <xsl:value-of select="team"></xsl:value-of>
-        </i>
-        <br></br>
-        <xsl:value-of select="condensed"></xsl:value-of>
-        <br></br>
-        <i>
-          <xsl:value-of select="skills"></xsl:value-of>
-        </i>
-        <br></br>
-      </td>
-    </tr>
-  </xsl:for-each>
-</table>
-<br/>
-	
-<div class="title">
-  <xsl:value-of select="page/cv/experience/text"/> :
-</div>
-<table id="jobs" class="collapsible" width="100%" border="0">
-  <xsl:for-each select="page/cv/experience/job">
-    <tr>
-      <td width="200px" align="left">
-        <xsl:value-of select="time"></xsl:value-of>
-      </td>
-      <td align="left" class="title">
-        <xsl:value-of select="position"></xsl:value-of>
-      </td>
-      <td align="right">
-        <xsl:value-of select="location"></xsl:value-of>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        <a>
-          <xsl:attribute name="href">
-            <xsl:value-of select="link" />
-          </xsl:attribute>
-          <xsl:attribute name="target">new</xsl:attribute>
-          <xsl:value-of select="company"></xsl:value-of>
-        </a> :
-        <ul>
-          <xsl:for-each select="note">
-            <li>
-              <xsl:value-of select="text"></xsl:value-of>
-            </li>
-          </xsl:for-each>
-        </ul>
-      </td>
-    </tr>
-  </xsl:for-each>
-</table>
-<br/>
-
-<div class="title">
   <xsl:value-of select="page/cv/education/text"/> :
 </div>
 <table class="collapsible" width="100%" border="0" id="education">
@@ -260,6 +171,57 @@
   </xsl:for-each>
 </table>
 <br/>
+
+    <div class="title">
+        <xsl:value-of select="page/cv/school-project/text"/>
+    </div>
+    <table id="school" class="collapsible" width="100%" border="0">
+        <xsl:for-each select="page/cv/school-project/project">
+            <tr>
+                <td width="200px" align="left" class="title">
+
+                    <a>
+                        <xsl:choose>
+                            <xsl:when test="link">
+                                <xsl:attribute name="href">
+                                    <xsl:value-of select="link" />
+                                </xsl:attribute>
+                            </xsl:when>
+                        </xsl:choose>
+                        <xsl:attribute name="target">new</xsl:attribute>
+                        <xsl:value-of select="name"></xsl:value-of>
+                    </a>
+                </td>
+                <td align="left">
+                    <xsl:value-of select="time"></xsl:value-of>
+                </td>
+                <td align="right">
+                    <i>
+                        <xsl:value-of select="sem"></xsl:value-of>
+                    </i>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <b>
+                        <xsl:value-of select="role"></xsl:value-of>
+                    </b>
+                    <br></br>
+                    <i>
+                        <xsl:value-of select="team"></xsl:value-of>
+                    </i>
+                    <br></br>
+                    <xsl:value-of select="condensed"></xsl:value-of>
+                    <br></br>
+                    <i>
+                        <xsl:value-of select="skills"></xsl:value-of>
+                    </i>
+                    <br></br>
+                </td>
+            </tr>
+        </xsl:for-each>
+    </table>
+    <br/>
   
   	 <div class="title" colspan ="3">
        <xsl:value-of select="page/cv/skills/text"/> :
