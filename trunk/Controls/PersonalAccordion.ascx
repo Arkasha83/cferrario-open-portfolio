@@ -8,10 +8,49 @@
                     FadeTransitions="True" TransitionDuration="250" FramesPerSecond="40"
                     RequireOpenedPane="False" SuppressHeaderPostbacks="True" meta:resourcekey="BaseAccordionResource" >
     <Panes>
+        <ajaxToolkit:AccordionPane ID="Fallout" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
+            <Header>
+                 <a href="" onclick="return false;">Fallout 3 Modification</a>
+            </Header>
+            <Content>
+                <table style="width:96%">
+                    <tr>
+                        <td valign="top">
+                            <asp:Localize runat="server" 
+                                ID="Localize3" 
+                                meta:resourcekey="F3Resource"></asp:Localize>
+                        </td>
+                        <td style="width:200px" align="center">
+                            <myControls:MySlideShow runat="server" ID="MySlideShow2" Type="Fallout" />
+                        </td>
+                    </tr>
+                </table>
+            </Content>
+        </ajaxToolkit:AccordionPane>
+        <ajaxToolkit:AccordionPane ID="DS" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
+            <Header>
+                 <a href="" onclick="return false;">Homebrew DS Tetris</a>
+            </Header>
+            <Content>
+                <table style="width:96%">
+                    <tr>
+                        <td valign="top">
+                            <asp:Localize runat="server" 
+                                ID="Localize2" 
+                                meta:resourcekey="DSResource"></asp:Localize>
+
+                        </td>
+                        <td style="width:200px" align="center">
+                            <myControls:MySlideShow runat="server" ID="MySlideShow1" Type="DS" />
+
+                        </td>
+                    </tr>
+                </table>
+            </Content>
+        </ajaxToolkit:AccordionPane>
         <ajaxToolkit:AccordionPane ID="XNA" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
             <Header>
                  <a href="" onclick="return false;">XNA Tetris</a>
-            
             </Header>
             <Content>
                 <table style="width:96%">
@@ -28,7 +67,6 @@
                         </td>
                     </tr>
                 </table>
-            
             </Content>
         </ajaxToolkit:AccordionPane>
         <ajaxToolkit:AccordionPane ID="AndroidTetris" runat="server" ContentCssClass="" HeaderCssClass="" meta:resourcekey="TocResource1">
