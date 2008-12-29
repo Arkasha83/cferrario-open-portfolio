@@ -147,4 +147,12 @@ I have also ported my &lt;a href="http://code.google.com/p/androidtetris/"&gt;An
   <data name="AndroidResource.Text" xml:space="preserve">
     <value>I have programmed a fully functional Tetris clone for Android. It is available as an open source project on Google code &lt;a href="http://code.google.com/p/androidtetris/"&gt;http://code.google.com/p/androidtetris/&lt;/a&gt; .&lt;br&gt;&lt;br&gt;</value>
   </data>
+  <data name="DSResource.Text" xml:space="preserve">
+    <value>Third and probably last of my Tetris games, I have ported the Android (Java) version of the game to C using common Homebrew library 'libdns'. This allowed me to get familiar with the DS hardware and create a functionning game in under two weeks of casual home programming.&lt;br&gt;&lt;br&gt;
+
+Link to project on google code : &lt;a href="http://code.google.com/p/dstetris/"&gt;http://code.google.com/p/dstetris/&lt;/a&gt;</value>
+  </data>
+  <data name="F3Resource.Text" xml:space="preserve">
+    <value>I have have enjoyed this game so much lately that I have decided to check out Bethesda's G.E.C.K. creation tools and play around with them.</value>
+  </data>
 </root>
