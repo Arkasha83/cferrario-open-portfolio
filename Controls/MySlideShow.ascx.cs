@@ -43,6 +43,10 @@ public partial class Controls_MySlideShow : System.Web.UI.UserControl
             SlideShowExtender1.SlideShowServiceMethod = "GetSlidesAndroid";
         else if (Type.Equals("Spooks"))
             SlideShowExtender1.SlideShowServiceMethod = "GetSlidesSpooks";
+        else if (Type.Equals("DS"))
+            SlideShowExtender1.SlideShowServiceMethod = "GetSlidesDS";
+        else if (Type.Equals("Fallout"))
+            SlideShowExtender1.SlideShowServiceMethod = "GetSlidesFallout";
         
     }
 
