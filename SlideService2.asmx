@@ -85,11 +85,23 @@ public class SlideService2  : System.Web.Services.WebService {
     {
         return GetSlides("img/ss/spooks/");
     }
-    
+
     [WebMethod]
     public Slide[] GetSlidesAndroid()
     {
         return GetSlides("img/ss/androidtetris/");
+    }
+
+    [WebMethod]
+    public Slide[] GetSlidesDS()
+    {
+        return GetSlides("img/ss/ds/");
+    }
+
+    [WebMethod]
+    public Slide[] GetSlidesFallout()
+    {
+        return GetSlides("img/ss/fallout/");
     }
     
 
