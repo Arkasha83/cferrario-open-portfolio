@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CplusResource.Text" xml:space="preserve">
-    <value>I have worked as Project Manager/Lead Programmer on a 6 month 3D C++ Ogre/Newton project. Here is the source code for it : &lt;a href="download/TOC/source code.rar"&gt;source code&lt;/a&gt;
-I am also now involved with homebrew DS programming and will release the code shortly.</value>
+    <value>&lt;br&gt;&lt;br&gt;I have worked as Project Manager/Lead Programmer on a 6 month 3D C++ Ogre/Newton project. Here is the source code for it : &lt;a href="download/TOC/source code.rar"&gt;source code&lt;/a&gt;
+I am also now involved with homebrew DS programming. I have ported my Android Tetris game to Nintendo DS using &lt;b&gt;libdns&lt;/b&gt; the source can be found &lt;a href="http://code.google.com/p/dstetris/source/checkout"&gt;here&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;br&gt;</value>
   </data>
   <data name="CsharpResource.Text" xml:space="preserve">
-    <value>I have experience some of my C# knowledge using ASP.NET (this site for example &lt;a href="http://code.google.com/p/cferrario-open-portfolio/source/checkout"&gt; http://code.google.com/p/cferrario-open-portfolio/source/checkout&lt;/a&gt; ) and enjoy C# code. I also have some XNA experience having ported my custom Tetris game onto the XNA engine : &lt;a href="http://code.google.com/p/xnatetris/source/checkout"&gt;http://code.google.com/p/xnatetris/source/checkout&lt;/a&gt;</value>
+    <value>&lt;br&gt;&lt;br&gt;I have experience some of my C# knowledge using ASP.NET (this site for example &lt;a href="http://code.google.com/p/cferrario-open-portfolio/source/checkout"&gt; http://code.google.com/p/cferrario-open-portfolio/source/checkout&lt;/a&gt; ) and enjoy C# code. I also have some XNA experience having ported my custom Tetris game onto the XNA engine : &lt;a href="http://code.google.com/p/xnatetris/source/checkout"&gt;http://code.google.com/p/xnatetris/source/checkout&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</value>
   </data>
   <data name="JavaResource.Text" xml:space="preserve">
-    <value>The Java code I was the most serious about belongs to DeValley Entertainment and is used in cell phone games such as Nowhere or The Spiderwick Chronicles. 
-	However my Tetris for Android is totally open source and available on google code &lt;a href="http://code.google.com/p/androidtetris/"&gt;http://code.google.com/p/androidtetris/&lt;/a&gt;
+    <value>&lt;br&gt;&lt;br&gt;The Java code I was the most serious about belongs to DeValley Entertainment and is used in cell phone games such as Nowhere or The Spiderwick Chronicles. 
+	However my Tetris for Android is totally open source and available on google code &lt;a href="http://code.google.com/p/androidtetris/"&gt;http://code.google.com/p/androidtetris/&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 	</value>
   </data>
 </root>
