@@ -118,116 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BioRsc.Text" xml:space="preserve">
-    <value>&lt;div class="container"&gt;
-
-Bienvenu sur chris-ferrario.com et merci de votre visite.&lt;br/&gt;&lt;br/&gt;
-J'ai construit ce site pour présenter mes expériences et mes aquis.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
-
-&lt;span class="texttitle"&gt;
-Qui suis-je?
-&lt;/span&gt;
-&lt;br&gt;&lt;br&gt;
-
-Mon nom est Christian Ferrario, je suis un programmeur de 25 ans qui a grandi en France et vis aux US depuis cette année.
-&lt;br&gt;&lt;br&gt;
-Je suis Italo-Américain et je parle Anglais, Français et Italien. Je peux aussi me faire comprendre en espagnol et je 
-connais des bases d'Allemand et de Chinois (Mandarin). 
-Je pense que la connaissance de ces langues m'a beaucoup aidé à aprendre différents langages de programmation.
-&lt;br&gt;&lt;br&gt; 
-J'ai décidé de devenir programmeur il y a quatre ans, je n'avais jamais fait de programmation au préalable. 
-J'ai choisi d'integrer une école de programmation généraliste plutôt qu'une école de jeux car je voulais être confronté a 
-plusieurs points de vue et connaître plusieurs domaines afin de pouvoir m'adapter à toute situation. 
-J'aprécie beaucoup apprendre de nouvelles choses et je lis régulièrement des livres de programmation ou des tutoriaux, 
-spécifiquement sur le milieu du game dev.&lt;br&gt;&lt;br&gt; 
-J'ai maintenant presque deux ans d'expérience professionnelle sur 6 projets commerciaux.
-&lt;br&gt;&lt;br&gt;
-
-
-&lt;span class="texttitle"&gt;
-Que fais-je?
-&lt;/span&gt;
-&lt;br&gt;&lt;br&gt;
-
-Après avoir travaillé un an comme gérant de cybercafé, je me suis rendu compte de la croissance de l'industrie du jeu vidéo. 
-Ayant toujours un coté créatif, j'ai décidé que jouer aux je ne me suffirait pas, je voulais aussi les créer. 
-C'est à ce moment que je quittait mes études en langues pour démarrer une école informatique, sans avoir de connaissances 
-particulières, un choix que je n'ai jamais regretté.
-&lt;br&gt;&lt;br&gt;
-Je suis depuis tombé amoureux de la programmataion en général et surtout la programmation orientée objet.&lt;br&gt;
-Après trois ans d'études ainsi qu'un an à 
-&lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; 
-à Paris, où j'ai connu le monde merveilleux de la programmation bitwise et de l'optimisation bas niveau des jeux mobiles en Java, 
-j'ai intégré la société 
-&lt;a href="http://www.gameloft.com/"&gt;Gameloft&lt;/a&gt; 
-dans leurs locaux à New York City.
-&lt;br&gt;
-Malheureusement en tant que recrue récente j'ai été victime des vagues de licenciement de la crise actuelle, mais cela m'a permis de reprendre le C/C++ et je travaille actuellement sur un projet Homebrew Nintendo DS.
-&lt;br&gt;&lt;br&gt;
-
-&lt;span class="texttitle"&gt;
-Qu'ai-je fait?
-&lt;br&gt;&lt;br&gt;&lt;/span&gt;
-
-J'ai travaillé sur cinq projets professionels avec DeValley Entertainement entre 2007 et 2008.
-J'ai aussi travaillé sur un projet Gameloft à venir.
-
-&lt;ul&gt;
-&lt;li&gt;
-En tant que programmeur principal:
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;Nowhere&lt;/b&gt; 
-(nominé meilleur jeu mobile français 2007) 
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;The Spiderwick Chronicles&lt;/b&gt; 
-(publié par Vivendi Universal Games Mobile)
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-En tant que programmeur support:
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;Landers&lt;/b&gt;
-(nominé meilleur jeu mobile français 2008)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;Holy Wars&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;Crash of the Titans&lt;/b&gt;
-(publié par Vivendi Universal Games Mobile)
-&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;Jeu mobile Gameloft&lt;/b&gt;
-A venir.
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;span class="texttitle"&gt;
-Ce que je peux déjà faire
-&lt;br&gt;&lt;br&gt;&lt;/span&gt;
-		
-J'ai mis en place ce Portfolio pour mettre en avant les connaissances avec lesquels j'aimerais faire carrière. 
-Ma plus grande expérience prêt à l'emploi est en technologie Java mobile.
-Je suis aussi beaucoup interressé par le devloppement sur Android et j'ai pu créer un clone de Tetris totalement
-fonctionel (disponible &lt;a href="http://code.google.com/p/androidtetris/"&gt;ici&lt;/a&gt;). 
-J'ai récemment beaucoup apprécié travailler en C# et j'essaye de m'en servir le plus souvent possible comme avec par exemple 
-ce site en ASP.NET/AJAX 
-et en apprenant sur mon temps libre la technologie XNA de Microsoft.&lt;br&gt;
-J'ai aussi travaillé en C++ lors d'un projet scolaire Ogre/Newton de 6 mois.&lt;br&gt;&lt;br&gt;
-Mais au final ce ne sont pas les langages qui m'importent mais les concepts, et les algorithmes 
-qui me plaisent le plus.
-
-&lt;br&gt;J'ai aussi fait la liste de mes connaissances sur la partie CV de mon site.
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-Si vous ne me croyez pas, faites plutôt confiance à Chuck!
-&lt;br&gt;&lt;br&gt;
-&lt;/div&gt;</value>
+    <value>&lt;div class="container"&gt;Bienvenu sur chris-ferrario.com et merci de votre visite.&lt;br/&gt;&lt;br/&gt;J'ai construit ce site pour présenter mes expériences et mes aquis.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="texttitle"&gt;Qui suis-je?&lt;/span&gt;&lt;br&gt;&lt;br&gt;Mon nom est Christian Ferrario, je suis un programmeur de 25 ans Italo-Américain et je parle Anglais, Français et Italien.&lt;br&gt;&lt;br&gt; Je suis diplômé Technologue de l'école &lt;a href="http://www.intechinfo.fr/"&gt;In’Tech INFO&lt;/a&gt; à Paris où j'ai suivi la filière Ingénieurie du Logiciel.&lt;br&gt; &lt;br&gt; Même en étant aujourd'hui employé je continue de dévorer livres et tutoriaux relatifs à la programmation de jeux vidéo ce qui me permets de pousser mes projets toujours plus loin.&lt;br&gt; I now have close to two years of professional experience under my belt working with developers &lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; in Paris and &lt;a href ="www.gameloft.com"&gt;Gameloft&lt;/a&gt; in New York as well as six projects that are sold commercially.&lt;br&gt;&lt;br&gt;&lt;br&gt;J'ai maintenant presque deux ans d'expérience professionnelle après avoir fait partie de &lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; à Paris et &lt;a href ="www.gameloft.com"&gt;Gameloft&lt;/a&gt; à New York ainsi que participé à 6 projets commerciaux.&lt;br&gt;&lt;br&gt;&lt;span class="texttitle"&gt;Qu'ai-je fait?&lt;br&gt;&lt;br&gt;&lt;/span&gt;J'ai travaillé sur cinq projets professionels avec DeValley Entertainement entre 2007 et 2008.&lt;ul&gt;&lt;li&gt;&lt;b&gt;Nowhere&lt;/b&gt; (nominé meilleur jeu mobile français 2007) &lt;/li&gt;&lt;li&gt;&lt;b&gt;The Spiderwick Chronicles&lt;/b&gt; (publié par Vivendi Universal Games Mobile)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Landers&lt;/b&gt; (nominé meilleur jeu mobile français 2008)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Holy Wars&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Crash of the Titans&lt;/b&gt; (publié par Vivendi Universal Games Mobile)&lt;/li&gt;&lt;/ul&gt;(Note: I was the main programmer for Nowere and the Spiderwick Chronicles)&lt;br&gt;&lt;br&gt;J'ai aussi travaillé sur un projet Gameloft en 2008.&lt;ul&gt;&lt;li&gt;&lt;b&gt;Spooks: The Mobile Game&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span class="texttitle"&gt;Ce que je peux déjà faire&lt;br&gt;&lt;br&gt;&lt;/span&gt;Ma plus grande expérience prêt à l'emploi est en technologie Java mobile telle que Midp 2.0 ou Android. Je suis aussi formé au C/C++, C# ainsi que d'autres langages web ou de script que j'utilise souvent lors de projets personels ou lors de création d'outils pour faciliter le travail. J'ai aussi acquis beaucoup d'expérience en programmation bas niveau, en optimisation et en débuggage.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Je sais que je peux être un très bon ajout à votre équipe; mais si vous ne me croyez pas, faites plutôt confiance à Chuck!&lt;br&gt;&lt;br&gt;&lt;/div&gt;</value>
   </data>
   <data name="PageResource1.Title" xml:space="preserve">
     <value>Christian Ferrario - Programmeur de jeux</value>
