@@ -119,7 +119,9 @@
   </resheader>
   <data name="CplusResource.Text" xml:space="preserve">
     <value>&lt;br&gt;&lt;br&gt;I have worked as Project Manager/Lead Programmer on a 6 month 3D C++ Ogre/Newton project. Here is the source code for it : &lt;a href="download/TOC/source code.rar"&gt;source code&lt;/a&gt;
-I am also now involved with homebrew DS programming. I have ported my Android Tetris game to Nintendo DS using &lt;b&gt;libdns&lt;/b&gt; the source can be found &lt;a href="http://code.google.com/p/dstetris/source/checkout"&gt;here&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;br&gt;</value>
+I am also now involved with homebrew DS programming. I have ported my Android Tetris game to Nintendo DS using &lt;b&gt;libdns&lt;/b&gt; the source can be found &lt;a href="http://code.google.com/p/dstetris/source/checkout"&gt;here&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+This is code written for personal use and thus not always commented or structured the way I work in a professional environment, I could provide with the permission of my current company, case by case code samples if helpful.&lt;br&gt;&lt;br&gt;</value>
   </data>
   <data name="CsharpResource.Text" xml:space="preserve">
     <value>&lt;br&gt;&lt;br&gt;I have experience some of my C# knowledge using ASP.NET (this site for example &lt;a href="http://code.google.com/p/cferrario-open-portfolio/source/checkout"&gt; http://code.google.com/p/cferrario-open-portfolio/source/checkout&lt;/a&gt; ) and enjoy C# code. I also have some XNA experience having ported my custom Tetris game onto the XNA engine : &lt;a href="http://code.google.com/p/xnatetris/source/checkout"&gt;http://code.google.com/p/xnatetris/source/checkout&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;</value>

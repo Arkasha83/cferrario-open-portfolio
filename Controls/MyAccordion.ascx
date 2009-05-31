@@ -8,6 +8,26 @@
                     FadeTransitions="true" TransitionDuration="250" FramesPerSecond="40" AutoSize="None"
                     RequireOpenedPane="false" SuppressHeaderPostbacks="true" >
                     <Panes>
+                        <cc1:AccordionPane ID="Myhero" runat="server">
+                            <Header>
+                                <a href="" onclick="return false;">My Hero: Astronaut</a>
+                            </Header>
+                            <Content>
+                                <table style="width:96%">
+                                    <tr>
+                                        <td valign="top">
+                                            <asp:Localize runat="server" 
+                                                ID="Localize1" 
+                                                meta:resourcekey="MyHeroTextResource">
+                                            </asp:Localize>
+                                        </td>
+                                        <td style="width:200px" align="center">
+                                            <uc1:MySlideShow runat="server" ID="Myheroslideshow" Type="Myhero" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </Content>
+                        </cc1:AccordionPane>
                         <cc1:AccordionPane ID="Spooks" runat="server">
                             <Header>
                                 <a href="" onclick="return false;">Spooks: The Mobile Game</a>
