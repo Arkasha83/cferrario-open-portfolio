@@ -103,6 +103,12 @@ public class SlideService2  : System.Web.Services.WebService {
     {
         return GetSlides("img/ss/fallout/");
     }
+
+    [WebMethod]
+    public Slide[] GetSlidesMyhero()
+    {
+        return GetSlides("img/ss/myhero/");
+    }
     
 
     [WebMethod]

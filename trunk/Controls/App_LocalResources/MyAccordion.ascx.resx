@@ -154,6 +154,14 @@ The game features an amazing soundtrack for a cell phone game, fast paced action
 &lt;br/&gt;&lt;br/&gt;
 &lt;a href="http://fr.youtube.com/watch?v=NhxqAUoRQC4"&gt;Game Trailer&lt;/a&gt;</value>
   </data>
+  <data name="MyHeroTextResource.Text" xml:space="preserve">
+    <value>&lt;b&gt;My Hero: Astronaut&lt;/b&gt;  is a soon to be released by Majesco in the US 3D space exploration game for Nintendo DS.The game has for now only been anounced and will be revealed at the upcoming E3.&lt;br&gt;
+&lt;br&gt;
+I was main programmer on this project which required the building of a brand new game engine on top of the company's base library wrapper of the DS functions.&lt;br&gt;
+&lt;br&gt;
+I will publish more info and links about this game once after the E3.&lt;br&gt;
+&lt;br&gt;</value>
+  </data>
   <data name="NowhereTextResource.Text" xml:space="preserve">
     <value>&lt;b&gt;Nowhere&lt;/b&gt; is a J2ME Midp 2.0 Survival Horror Game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
 I was the lead programmer for the development of this project and also worked on some of the porting.&lt;br/&gt;&lt;br/&gt;
