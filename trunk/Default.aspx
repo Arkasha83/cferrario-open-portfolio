@@ -22,7 +22,7 @@
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptLocalization="true" />
 
-        <div style="text-align:right;"><uc1:LocaleChooser ID="LocaleChooser" runat="server"  /></div>
+        <!--    <div style="text-align:right;"><uc1:LocaleChooser ID="LocaleChooser" runat="server"  /></div>-->
         
         <div style="text-align:center;"><img src="img/chrisflogo.png" alt=""/><br /><br /><br /></div>
         
@@ -83,6 +83,13 @@
                                 meta:resourcekey="TabPanel5Resource1">
                             <ContentTemplate>
                                 <asp:xml runat="server" id="xmlDisp" />
+                                <br />
+                                <br />
+                                <center>
+                                <a href="download/Resume.doc">Resume in Word format</a>
+                                </center>
+                                <br />
+                                <br />
                             </ContentTemplate>
                         </cc1:TabPanel>
                     </cc1:TabContainer>
