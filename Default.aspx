@@ -14,7 +14,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Untitled Page</title>
-    <link href="css/cv.css" rel="stylesheet" type="text/css" />
+  <!--    <link href="css/cv.css" rel="stylesheet" type="text/css" />-->
     <link href="css/TabsStyleSheet.css" rel="stylesheet" type="text/css" />
     <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
 </head>
@@ -84,10 +84,17 @@
                             <ContentTemplate>
                                 <asp:xml runat="server" id="xmlDisp" />
                                 <br />
+                                <hr />
                                 <br />
                                 <center>
-                                <a href="download/Resume.doc">Resume in Word format</a>
+                                <a href="download/Resume.doc">Download Resume in Word format</a>
                                 </center>
+                                <br />
+                                <hr />
+                                <br />
+                                <%		   
+                                    Response.WriteFile("download/Resume.htm");
+                                %>
                                 <br />
                                 <br />
                             </ContentTemplate>
