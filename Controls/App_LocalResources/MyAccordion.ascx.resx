@@ -131,6 +131,19 @@ Reviews :&lt;br/&gt;&lt;br/&gt;
 
 &lt;a href="http://fr.youtube.com/watch?v=6t0jXbxwk-c"&gt;Vivendi's Game commercial&lt;/a&gt;</value>
   </data>
+  <data name="GTRacingTextResource.Text" xml:space="preserve">
+    <value>&lt;b&gt;GT Racing: Motor Academy&lt;/b&gt; is a game develloped by Gameloft for the iPhone/iPad. In this 3D racing game you can drive more than 100 luxury cars while customizing them for better performance and race them on the 14 official racing tracks around the world. I was part of a large team of programmers who worked hard to realease this high quality game.
+
+&lt;br&gt;&lt;br&gt;
+Official website : &lt;a href="http://www.gtracingmotoracademy.com/"&gt;http://www.gtracingmotoracademy.com/&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;center&gt;
+&lt;b&gt;Two official trailers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;
+&lt;object width="360" height="300"&gt;&lt;param name="movie" value="http://www.youtube.com/v/OMF4k-c7rRA&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;border=1"&gt;&lt;/param&gt;&lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt;&lt;embed src="http://www.youtube.com/v/OMF4k-c7rRA&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360" height="300"&gt;&lt;/embed&gt;&lt;/object&gt;
+&lt;object width="460" height="300"&gt;&lt;param name="movie" value="http://www.youtube.com/v/bV6I6SgofeI&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;border=1"&gt;&lt;/param&gt;&lt;param name="allowFullScreen" value="true"&gt;&lt;/param&gt;&lt;param name="allowscriptaccess" value="always"&gt;&lt;/param&gt;&lt;embed src="http://www.youtube.com/v/bV6I6SgofeI&amp;hl=en_US&amp;fs=1&amp;rel=0&amp;border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="460" height="300"&gt;&lt;/embed&gt;&lt;/object&gt;
+&lt;/div&gt;&lt;/center&gt;</value>
+  </data>
   <data name="HolyWarsResource.Text" xml:space="preserve">
     <value>&lt;b&gt;Holy Wars&lt;/b&gt; is J2ME Midp 2.0 Beat them up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; is one of DeValley's most successful recent titles.&lt;br/&gt;&lt;br/&gt;
 This project was already developed after I started working at DeValley, but I was later put in charge of managing the porting and resolving a lot of device specific bugs.&lt;br/&gt;&lt;br/&gt;
@@ -164,11 +177,10 @@ Official Trailer :
 &lt;/center&gt;</value>
   </data>
   <data name="MyHeroTextResource.Text" xml:space="preserve">
-    <value>&lt;b&gt;My Hero: Astronaut&lt;/b&gt;  is a soon to be released by Majesco in the US 3D space exploration game for Nintendo DS.The game has for now only been anounced and will be revealed at the upcoming E3.&lt;br&gt;
+    <value>&lt;b&gt;My Hero: Astronaut&lt;/b&gt; was to be released by Majesco in the US as a 3D space exploration game for Nintendo DS. The game had been anounced and and had been presented at the 2009 E3. It has however had to be cancelled after the devolloper had to close their doors for financial reasons.&lt;br&gt;
 &lt;br&gt;
 I was main programmer on this project which required the building of a brand new game engine on top of the company's base library wrapper of the DS functions.&lt;br&gt;
 &lt;br&gt;
-I will publish more info and links about this game once after the E3.&lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;br&gt;
 &lt;center&gt;&lt;br&gt;

@@ -110,6 +110,11 @@ public class SlideService2  : System.Web.Services.WebService {
         return GetSlides("img/ss/myhero/");
     }
     
+    [WebMethod]
+    public Slide[] GetSlidesGtracing()
+    {
+        return GetSlides("img/ss/gtracing/");
+    }
 
     [WebMethod]
     private Slide[] GetSlides(String path)
