@@ -49,6 +49,8 @@ public partial class Controls_MySlideShow : System.Web.UI.UserControl
             SlideShowExtender1.SlideShowServiceMethod = "GetSlidesFallout";
         else if (Type.Equals("Myhero"))
             SlideShowExtender1.SlideShowServiceMethod = "GetSlidesMyhero";
+        else if (Type.Equals("Gtracing"))
+            SlideShowExtender1.SlideShowServiceMethod = "GetSlidesGtracing";
         
     }
 
