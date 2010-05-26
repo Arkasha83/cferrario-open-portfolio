@@ -12,16 +12,16 @@
         <asp:GridView ID="GridView1" runat="server"  
         GridLines="None"   
         CssClass="mGrid"  
-        AlternatingRowStyle-CssClass="alt" Caption="Hitting Stats"
-        >
-<AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
+        AlternatingRowStyle-CssClass="alt" Caption="Hitting Stats" AllowSorting="True" OnSorting="GridView1_Sorting"
+        AutoGenerateColumns="false">
+        <AlternatingRowStyle CssClass="alt"/>
         </asp:GridView>
         <asp:GridView ID="GridView2" runat="server"
         GridLines="None"   
         CssClass="mGrid"  
-        AlternatingRowStyle-CssClass="alt" Caption="Pitching Stats"
-        >
-            <AlternatingRowStyle CssClass="alt" />
+        AlternatingRowStyle-CssClass="alt" Caption="Pitching Stats" AllowSorting="True" OnSorting="GridView2_Sorting"
+        AutoGenerateColumns="false">
+        <AlternatingRowStyle CssClass="alt" />
         </asp:GridView>
     </form>
 </body>
