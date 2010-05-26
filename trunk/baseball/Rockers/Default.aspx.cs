@@ -12,6 +12,13 @@ using System.Data.OleDb;
 
 public partial class baseball_Rockers_Default : System.Web.UI.Page
 {
+    protected String GetModified()
+    {
+        String sourceFile = Server.MapPath("./StatSeasonRockers-2010.xls");
+        System.IO.FileInfo file = new System.IO.FileInfo(sourceFile);
+        return "Last Modified " + file.LastWriteTime.ToString();
+    }
+
     protected void FillGrid( String range, GridView gV, String expression )
     {
         String sourceFile = Server.MapPath("./StatSeasonRockers-2010.xls");
