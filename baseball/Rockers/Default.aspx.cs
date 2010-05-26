@@ -12,7 +12,7 @@ using System.Data.OleDb;
 
 public partial class baseball_Rockers_Default : System.Web.UI.Page
 {
-    protected void Page_Load(object sender, EventArgs e)
+    protected void FillGrid( String range, GridView gV, String expression )
     {
         String sourceFile = Server.MapPath("./StatSeasonRockers-2010.xls");
         // Create connection string variable. Modify the "Data Source"
@@ -27,20 +27,55 @@ public partial class baseball_Rockers_Default : System.Web.UI.Page
         // Open connection with the database.
         DBConnection.Open();
 
-        string SQLString = "Select * from [Totals$B5:AA30]";
+        string SQLString = "Select * from [" + range + "]";
         OleDbCommand DBCommand = new OleDbCommand(SQLString, DBConnection);
         IDataReader DBReader = DBCommand.ExecuteReader();
-        GridView1.DataSource = DBReader;
-        GridView1.DataBind();
-
-        string SQLString2 = "Select * from [Totals$B36:AA47]";
-        OleDbCommand DBCommand2 = new OleDbCommand(SQLString2, DBConnection);
-        IDataReader DBReader2 = DBCommand2.ExecuteReader();
-        GridView2.DataSource = DBReader2;
-        GridView2.DataBind();
+        DataTable table = new DataTable();
+        table.Load(DBReader);
+        int max = table.Rows.Count;
+        for (int i = 0; i < max; i++)
+        {
+            DataRow row = table.Rows[i];
+            string s = row.ItemArray[0].ToString();
+            if (s.Equals(""))
+            {
+                row.Delete();
+            }
+        }
+        gV.Columns.Clear();
+        for (int i = 0; i < table.Columns.Count; i++)
+        {
+            DataColumn col = table.Columns[i];
+            BoundField nameColumn = new BoundField();
+            nameColumn.DataField = col.ColumnName;
+            nameColumn.HeaderText = col.ColumnName.ToLower();
+            nameColumn.SortExpression = col.ColumnName;
+            nameColumn.ItemStyle.HorizontalAlign = HorizontalAlign.Center;
+            if (i > table.Columns.Count - 6)
+                nameColumn.DataFormatString = "{0:f3}";
+            gV.Columns.Add(nameColumn);
+        }
+        table.DefaultView.Sort = expression;
+        gV.DataSource = table;
+        gV.DataBind();
 
         DBReader.Close();
         DBConnection.Close();
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        FillGrid("Totals$B5:AA30" , GridView1, "" );
+        FillGrid("Totals$B36:AA47", GridView2, "" );
+    }
+
+    protected void GridView1_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        FillGrid("Totals$B5:AA30", GridView1, e.SortExpression + " desc");
+    }
+    protected void GridView2_Sorting(object sender, GridViewSortEventArgs e)
+    {
+        FillGrid("Totals$B36:AA47", GridView2, e.SortExpression + " desc");
     }
 }
 

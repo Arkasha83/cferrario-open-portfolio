@@ -29,5 +29,5 @@
     line-height: 12px;  
     text-align: center; 
  }     
-.mGrid .pgr a { color: #666; text-decoration: none; }  
-.mGrid .pgr a:hover { color: #000; text-decoration: none; } 
+.mGrid a { color: #FFF; text-decoration: none; }  
+.mGrid a:hover { color: #F6F; text-decoration: none; } 
