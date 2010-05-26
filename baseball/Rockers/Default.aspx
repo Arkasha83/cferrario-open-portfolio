@@ -9,6 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div><br /><center>Download Excel sheet <a href="StatSeasonRockers-2010.xls">StatSeasonRockers-2010.xls</a><br />
+        
+        <% Response.Write( GetModified() ); %>
+        </center><br /></div>
         <asp:GridView ID="GridView1" runat="server"  
         GridLines="None"   
         CssClass="mGrid"  
