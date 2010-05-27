@@ -148,8 +148,9 @@ public partial class baseball_Rockers_Default : System.Web.UI.Page
         DBReader.Close();
         DBConnection.Close();
     }
-
-    protected void Page_Init(object sender, EventArgs e)
+    
+    TabContainer tbContainer;
+    protected void Page_PreInit(object sender, EventArgs e)
     {
         sourceFile = Server.MapPath("./StatSeasonRockers-2010.xls");
         // Create connection string variable. Modify the "Data Source"
@@ -160,7 +161,7 @@ public partial class baseball_Rockers_Default : System.Web.UI.Page
 
         String[] sheets = GetExcelSheetNames();
 
-        TabContainer tbContainer = new TabContainer();
+        tbContainer = new TabContainer();
         for (int sheet = 0; sheet < sheets.Length; sheet++ )
         {
             string s = sheets[sheet];
@@ -192,14 +193,23 @@ public partial class baseball_Rockers_Default : System.Web.UI.Page
             FillGrid(s + "$B36:AA47", g2, "");
 
             TabPanel tpPanel = new TabPanel();
-            tpPanel.EnableViewState = false;
+            tpPanel.EnableViewState = true;
             tpPanel.Controls.Add(opp);
             tpPanel.Controls.Add(g1);
             tpPanel.Controls.Add(g2);
             tpPanel.HeaderText = s;
             tbContainer.Controls.Add(tpPanel);
-            holder.Controls.Add(tbContainer);
         }
+    }
+    
+    protected void Page_Init(object sender, EventArgs e)
+    {
+        holder.Controls.Add(tbContainer);
+    }
+    protected void Page_PreRender(object sender, EventArgs e)
+    {
+        tbContainer.ActiveTabIndex = 0;  //Manually set the active tab index.
+        tbContainer.CssClass ="ajax__tab_xp"; 
     }
 
     protected void Page_Load(object sender, EventArgs e)
