@@ -25,7 +25,7 @@
     <header>
         <div class="content-wrapper">
             <div class="float-left">
-                <p class="site-title"><a runat="server" href="~/">your logo here</a></p>
+                <p class="site-title"><a runat="server" href="~/"><img src="Images/img/chrisflogo.png"/></a></p>
             </div>
             <div class="float-right">
                 <nav>

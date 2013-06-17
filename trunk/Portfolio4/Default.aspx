@@ -4,37 +4,63 @@
     <section class="featured">
         <div class="content-wrapper">
             <hgroup class="title">
-                <h1><%: Title %>.</h1>
-                <h2>Modify this template to jump-start your ASP.NET application.</h2>
             </hgroup>
             <p>
-                To learn more about ASP.NET, visit <a href="http://asp.net" title="ASP.NET Website">http://asp.net</a>. 
-                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from 
-                ASP.NET. If you have any questions about ASP.NET visit 
-                <a href="http://forums.asp.net/18.aspx" title="ASP.NET Forum">our forums</a>.
             </p>
         </div>
     </section>
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>We suggest the following:</h3>
-    <ol class="round">
-        <li class="one">
-            <h5>Getting Started</h5>
-            ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245146">Learn more…</a>
-        </li>
-        <li class="two">
-            <h5>Add NuGet packages and jump-start your coding</h5>
-            NuGet makes it easy to install and update free libraries and tools.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245147">Learn more…</a>
-        </li>
-        <li class="three">
-            <h5>Find Web Hosting</h5>
-            You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            <a href="http://go.microsoft.com/fwlink/?LinkId=245143">Learn more…</a>
-        </li>
-    </ol>
+    
+<div class="container">
+    <div class="slides">
+        <img src="Images/img/ss/bio/1.jpg" />
+        <img src="Images/img/ss/bio/2.jpg" />
+        <img src="Images/img/ss/bio/3.jpg" />
+    </div>
+    <canvas id="slideshow" width="900" height="300"></canvas>
+</div>
+
+<span class="texttitle">
+What I have done?
+<br><br></span>
+
+I have worked on five commercial projects with DeValley Entertainement during 2007 and 2008.
+
+<ul>
+<li><b>Nowhere</b> (nominated for best french mobile game of 2007)</li>
+<li><b>The Spiderwick Chronicles</b></li>
+<li><b>Landers</b> (nominated for best french mobile game of 2008)</li>
+<li><b>Holy Wars</b></li>
+<li><b>Crash of the Titans</b></li>
+</ul>
+
+<br>
+
+I also worked on one mobile game for Gameloft in New York in 2008.
+
+<ul><li><b>Spooks: The Mobile Game</b></li></ul><br>
+
+During 2009, in France, I built the game engine as the main programmer for :
+
+<ul><li><b>My Hero: Astronaut</b> ( NDS game sadly cancelled after being shut down during late debugging because of external finance reasons )</li></ul><br>
+
+In late 2009, I moved to Montreal, Canada to join the Gameloft team and worked on:
+
+<ul><li><b>GT Racing: Motor Company</b> ( iPhone - iPad )</li></ul><br>
+
+Please feel free to check out these projects on the <b><i>Professionnal Experience</i></b> tab of this portfolio.
+<br><br><br>
+
+<span class="texttitle">
+What I can already do
+<br><br></span>
+		
+Most of my ready-to-use experience is in C/C++ game programming, with a strong background in Java Midp heavily optimized programming. Having been a main programmer on three different projects, I have touched various aspects of game programming and architecture design such as engine construction, physics, AI, fine tuned gameplays, audio, animation, menus, portability, localization... I also work a lot on the side or in between projects on prototypes or tools to make my job easier. I have been gaining more and more experience with low level programming and optimization, I also enjoy debugging very much.<br><br>
+I am also a very polished team player and play very well with the subtilities of human interaction having worked on many team programming projects in different countries and in different languages but also being on a baseball team for about a decade including some coaching experience as well as being an official umpire.
+
+<br><br><br>
+I know that I can be a very valuable adition to your dev team, but don't take it from me, listen to Chuck!
+
 </asp:Content>
