@@ -3,24 +3,20 @@
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <section class="featured">
         <div class="content-wrapper">
-            <hgroup class="title">
-            </hgroup>
-            <p>
-            </p>
+                <nav>
+                    <ul id="menu">
+                        <li><a id="A1" runat="server" href="~/">Bio</a></li>
+                        <li><a id="A2" runat="server" href="~/About">Projects</a></li>
+                        <li><a id="A3" runat="server" href="~/About">Code Examples</a></li>
+                        <li><a id="A4" runat="server" href="~/About">Resume</a></li>
+                        <li><a id="A5" runat="server" href="~/Contact">Contact</a></li>
+                    </ul>
+                </nav>
         </div>
     </section>
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    
-<div class="container">
-    <div class="slides">
-        <img src="Images/img/ss/bio/1.jpg" />
-        <img src="Images/img/ss/bio/2.jpg" />
-        <img src="Images/img/ss/bio/3.jpg" />
-    </div>
-    <canvas id="slideshow" width="900" height="300"></canvas>
-</div>
 
 <span class="texttitle">
 What I have done?
@@ -57,8 +53,17 @@ Please feel free to check out these projects on the <b><i>Professionnal Experien
 What I can already do
 <br><br></span>
 		
-Most of my ready-to-use experience is in C/C++ game programming, with a strong background in Java Midp heavily optimized programming. Having been a main programmer on three different projects, I have touched various aspects of game programming and architecture design such as engine construction, physics, AI, fine tuned gameplays, audio, animation, menus, portability, localization... I also work a lot on the side or in between projects on prototypes or tools to make my job easier. I have been gaining more and more experience with low level programming and optimization, I also enjoy debugging very much.<br><br>
-I am also a very polished team player and play very well with the subtilities of human interaction having worked on many team programming projects in different countries and in different languages but also being on a baseball team for about a decade including some coaching experience as well as being an official umpire.
+Most of my ready-to-use experience is in C/C++ game programming, with a strong background in Java Midp  <br>
+    heavily optimized programming. Having been a main programmer on three different projects, I have  <br>
+    touched various aspects of game programming and architecture design such as engine construction,  <br>
+    physics, AI, fine tuned gameplays, audio, animation, menus, portability, localization...  <br>
+    I also work a lot on the side or in between projects on prototypes or tools to make my job easier.  <br>
+    I have been gaining more and more experience with low level programming and optimization,  <br>
+    I also enjoy debugging very much.<br><br>
+I am also a very polished team player and play very well with the subtilities of human interaction  <br>
+    having worked on many team programming projects in different countries and in different languages  <br>
+    but also being on a baseball team for about a decade including some coaching  <br>
+    experience as well as being an official umpire.
 
 <br><br><br>
 I know that I can be a very valuable adition to your dev team, but don't take it from me, listen to Chuck!
