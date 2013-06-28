@@ -26,21 +26,15 @@
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title"><a runat="server" href="~/"><img src="Images/img/chrisflogo.png"/></a></p>
+                <font size="4">GAME PROGRAMMER</font>
+                <br><br>
             </div>
             <div class="float-right">
-                <nav>
-                    <ul id="menu">
-                        <li><a runat="server" href="~/">Bio</a></li>
-                        <li><a id="A1" runat="server" href="~/About">Projects</a></li>
-                        <li><a id="A2" runat="server" href="~/About">Code Examples</a></li>
-                        <li><a runat="server" href="~/About">Resume</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
-                </nav>
+
             </div>
         </div>
     </header>
-    <div id="body">
+    <div id="body" >
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
         <section class="content-wrapper main-content clear-fix">
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
