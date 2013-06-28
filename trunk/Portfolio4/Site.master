@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %>- My ASP.NET Application</title>
+    <title><%: Page.Title %>- Chris Ferrario - Game Programmer</title>
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <asp:PlaceHolder runat="server">           
