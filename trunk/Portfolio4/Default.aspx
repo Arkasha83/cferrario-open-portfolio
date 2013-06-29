@@ -38,8 +38,11 @@ Hello there! I'm Chris Ferrario, welcome to my portfolio.
     </div>
     <div class="float-right">
         <br/>
+        <br/>
+        <br/>
+        <br/>
         <div><img src="Images/personal.jpg" width="350"/></div>
-        <div class="float-right"><img src="Images/img/ss/bio/DSC05974.JPG" width="350"/></div>
+        <div><img src="Images/personal2.jpg" width="350"/></div>
     </div>
     <br style="clear:both;"/>
 </div>
@@ -74,7 +77,7 @@ I am very happy in my current position, and certainly have no desire to jump to 
     </div>
     <div class="float-left">
         <div><img src="Images/img/ss/bio/1.jpg" width="350"/></div>
-        <div><img src="Images/personal2.jpg" width="350"/></div>
+        <div><img src="Images/img/chucksays.jpg" width="350"/></div>
     </div>
     <br style="clear:both;"/>
 </div>
