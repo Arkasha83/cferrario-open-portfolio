@@ -2,6 +2,7 @@
     background-color: #e2e2e2;
     margin: 0;
     padding: 0;
+    background: no-repeat;
 }
 
 body {
@@ -47,7 +48,7 @@ mark {
 }
 
 .float-left {
-    float: none;
+    float: left;
 }
 
 .float-right {
@@ -122,9 +123,9 @@ header .content-wrapper {
     
 footer {
     clear: both;
-    background-color: #e2e2e2;
+    background-color: #fff;
     font-size: .8em;
-    height: 100px;
+    height: 140px;
 }
 
 

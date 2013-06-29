@@ -1,16 +1,5 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Contact.aspx.cs" Inherits="Contact" %>
 
-<asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
-    <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-            </hgroup>
-            <p>
-            </p>
-        </div>
-    </section>
-</asp:Content>
-
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
