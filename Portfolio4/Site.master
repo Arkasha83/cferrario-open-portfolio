@@ -28,22 +28,10 @@
     <header>
         <div class="content-wrapper">
             <div id="coin-slider">
-                <a href="Images/img/chucksays.jpg">
-                    <img src="Images/img/chucksays.jpg" >
+                <a href="http://www.devalley-entertainment.com/">
+                    <img src="Images/img/banner/banner_holywars.jpg" >
                     <span>
-                        Description for imgNesryhttrtrytr trytrttttttttttttttttttttt
-                    </span>
-                </a>
-                <a href="Images/img/chucksays.jpg">
-                    <img src="Images/img/logos/devalley.png" >
-                    <span>
-                        Description for imgN
-                    </span>
-                </a>
-                <a href="Images/img/chucksays.jpg">
-                    <img src="Images/img/ss/gtracing/5.png" >
-                    <span>
-                        Description for imgN
+                        Holy Wars by DeValley Entertainment
                     </span>
                 </a>
             </div>
@@ -58,8 +46,7 @@
                             <li><a id="A2" runat="server" href="~/">Bio</a></li>
                             <li><a id="A3" runat="server" href="~/Projects">Projects</a></li>
                             <li><a id="A4" runat="server" href="~/About">Code Examples</a></li>
-                            <li><a id="A5" runat="server" href="~/About">Resume</a></li>
-                            <li><a id="A6" runat="server" href="~/Contact">Contact</a></li>
+                            <li><a id="A5" runat="server" href="~/Contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -110,7 +97,8 @@
         {
             width: 960,
             height: 240,
-            opacity: 0.7,
+            opacity: 0.8,
+            titleSpeed: 3000,
             delay: 4000
         });
         });
