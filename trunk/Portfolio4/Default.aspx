@@ -1,19 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
-    <section class="featured">
-        <div class="content-wrapper">
-                <nav>
-                    <ul id="menu">
-                        <li><a id="A1" runat="server" href="~/">Bio</a></li>
-                        <li><a id="A2" runat="server" href="~/About">Projects</a></li>
-                        <li><a id="A3" runat="server" href="~/About">Code Examples</a></li>
-                        <li><a id="A4" runat="server" href="~/About">Resume</a></li>
-                        <li><a id="A5" runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
-                </nav>
-        </div>
-    </section>
+
 </asp:Content>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">

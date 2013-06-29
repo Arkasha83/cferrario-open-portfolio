@@ -6,7 +6,10 @@
     <meta charset="utf-8" />
     <title><%: Page.Title %>- Chris Ferrario - Game Programmer</title>
     <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="Scripts/coin-slider-styles.css" rel="stylesheet" type="text/css" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript" src="Scripts/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-1.8.2.min.js"></script>
     <asp:PlaceHolder runat="server">           
         <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
     </asp:PlaceHolder>
@@ -24,18 +27,43 @@
     </asp:ScriptManager>
     <header>
         <div class="content-wrapper">
-            <div class="float-left">
-                <p class="site-title"><a runat="server" href="~/"><img src="Images/img/chrisflogo.png"/></a></p>
-                <font size="4">GAME PROGRAMMER</font>
-                <br><br>
-            </div>
-            <div class="float-right">
-
+            <div id="coin-slider">
+                <a href="Images/img/chucksays.jpg">
+                    <img src="Images/img/chucksays.jpg" >
+                    <span>
+                        Description for imgNesryhttrtrytr trytrttttttttttttttttttttt
+                    </span>
+                </a>
+                <a href="Images/img/chucksays.jpg">
+                    <img src="Images/img/logos/devalley.png" >
+                    <span>
+                        Description for imgN
+                    </span>
+                </a>
+                <a href="Images/img/chucksays.jpg">
+                    <img src="Images/img/ss/gtracing/5.png" >
+                    <span>
+                        Description for imgN
+                    </span>
+                </a>
             </div>
         </div>
     </header>
     <div id="body" >
         <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="featured">
+                <div class="content-wrapper">
+                    <nav>
+                        <ul id="menu">
+                            <li><a id="A2" runat="server" href="~/">Bio</a></li>
+                            <li><a id="A3" runat="server" href="~/About">Projects</a></li>
+                            <li><a id="A4" runat="server" href="~/About">Code Examples</a></li>
+                            <li><a id="A5" runat="server" href="~/About">Resume</a></li>
+                            <li><a id="A6" runat="server" href="~/Contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section> 
         <section class="content-wrapper main-content clear-fix">
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
         </section>
@@ -47,8 +75,46 @@
                     &copy; <%: DateTime.Now.Year %> - Chris-Ferrario.com
                 </p>
             </div>
+            <div class="float-right">
+                <p class="site-title"><a id="A1" runat="server" href="~/"><img src="Images/img/chrisflogo.png"/></a></p>
+                <br /><br />
+            </div>
         </div>
     </footer>
     </form>
+
+	<!-- Other Scripts -->		
+		
+
+	<!-- Instantiate Menu -->
+
+	<!-- Instantiate Slider -->
+	<!-- ONLY WORKS REMOTELY DUE TO LOADING TIME ISSUES 
+        width: 565, // width of slider panel
+        height: 290, // height of slider panel
+        spw: 7, // squares per width
+        sph: 5, // squares per height
+        delay: 3000, // delay between images in ms
+        sDelay: 30, // delay beetwen squares in ms
+        opacity: 0.7, // opacity of title and navigation
+        titleSpeed: 500, // speed of title appereance in ms
+        effect: '', // random, swirl, rain, straight
+        navigation: true, // prev next and buttons
+        links: true, // show images as links
+        hoverPause: true // pause on hover
+    -->
+    <script type="text/javascript" src="Scripts/coin-slider.min.js"></script>
+    <script type="text/javascript">jQuery(document).ready(function ()
+        {
+    jQuery('#coin-slider').coinslider(
+        {
+            width: 960,
+            height: 240,
+            opacity: 0.7,
+            delay: 4000
+        });
+        });
+
+    </script>
 </body>
 </html>
