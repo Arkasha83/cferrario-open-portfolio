@@ -41,20 +41,19 @@
             Official website : <a href="http://www.gtracingmotoracademy.com/">http://www.gtracingmotoracademy.com/</a>
             <br />
             <br />
-            <center> <b>Two official trailers:</b><br><br>
-                <div> 
-                    <object width="360" height="300">
-                        <param name="movie" value="http://www.youtube.com/v/OMF4k-c7rRA&hl=en_US&fs=1&rel=0&border=1"/>
-                        <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"/>
-                        <embed src="http://www.youtube.com/v/OMF4k-c7rRA&hl=en_US&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360" height="300"/>
-                    </object> 
-                    <object width="460" height="300">
-                        <param name="movie" value="http://www.youtube.com/v/bV6I6SgofeI&hl=en_US&fs=1&rel=0&border=1"/>
-                        <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"/>
-                        <embed src="http://www.youtube.com/v/bV6I6SgofeI&hl=en_US&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="460" height="300"/>
-                    </object> 
-                </div>
-            </center>
+            <b>Two official trailers:</b><br><br>
+            <div> 
+                <object width="360" height="300">
+                    <param name="movie" value="http://www.youtube.com/v/OMF4k-c7rRA&hl=en_US&fs=1&rel=0&border=1"/>
+                    <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"/>
+                    <embed src="http://www.youtube.com/v/OMF4k-c7rRA&hl=en_US&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="360" height="300"/>
+                </object> 
+                <object width="460" height="300">
+                    <param name="movie" value="http://www.youtube.com/v/bV6I6SgofeI&hl=en_US&fs=1&rel=0&border=1"/>
+                    <param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"/>
+                    <embed src="http://www.youtube.com/v/bV6I6SgofeI&hl=en_US&fs=1&rel=0&border=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="460" height="300"/>
+                </object> 
+            </div>
         </dd>
 
         <dt>
@@ -290,7 +289,10 @@
                 <li><a href="http://www.midlet-review.com/index?content=review&id=743&PHPSESSID=ea574515ca4">Midlet-Review</a> Score</li> 
             </ul> 
             <br/><br/> 
-            <a href="http://fr.youtube.com/watch?v=-kAUJj8AQj8">Game Trailer</a><br/> <a href="http://fr.youtube.com/watch?v=DDY0BJ8iAC0">Trailer 2</a>
+            <div>
+                <div class="float-left"><iframe width="420" height="260" src="http://www.youtube.com/embed/DDY0BJ8iAC0?feature=player_embedded" frameborder="0" allowfullscreen></iframe></div>
+                <div class="float-right"><iframe width="420" height="260" src="http://www.youtube.com/embed/-kAUJj8AQj8?feature=player_embedded" frameborder="0" allowfullscreen></iframe></div>
+            </div>
         </dd>
 
     </dl>
