@@ -42,7 +42,7 @@ Hello there! I'm Chris Ferrario, welcome to my portfolio.
         <br/>
         <br/>
         <div><img src="Images/personal.jpg" width="350"/></div>
-        <div><img src="Images/personal2.jpg" width="350"/></div>
+        <div><iframe width="350" height="240" src="https://www.youtube.com/embed/aHstQVfbUVU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
     </div>
     <br style="clear:both;"/>
 </div>

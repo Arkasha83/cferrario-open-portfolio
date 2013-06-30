@@ -141,7 +141,8 @@ h5, h6 {
   }
 .accordion  dd {
      border-top: 0; 
-     font-size: 12px;
+     font-size: 14px;
+    padding:16px;
   }
 
 .accordion dt a {
