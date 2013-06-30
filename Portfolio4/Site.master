@@ -28,31 +28,55 @@
     <header>
         <div class="content-wrapper">
             <div id="coin-slider">
-                <a href="http://www.devalley-entertainment.com/">
+                <a href="Projects.aspx">
+                    <img src="Images/img/banner/banner_a7.jpg" >
+                    <span>
+                        Asphalt 7: Heat by Gameloft
+                    </span>
+                </a>
+                <a href="Projects.aspx">
+                    <img src="Images/img/banner/banner_a6.jpg" >
+                    <span>
+                        Asphalt 6: Adrenaline by Gameloft
+                    </span>
+                </a>
+                <a href="Projects.aspx">
+                    <img src="Images/img/banner/banner_gt.jpg" >
+                    <span>
+                        GT Racing: Motor Academy by Gameloft
+                    </span>
+                </a>
+                <a href="Projects.aspx">
+                    <img src="Images/img/banner/banner_myhero.jpg" >
+                    <span>
+                        My Hero Astronaut
+                    </span>
+                </a>
+                <a href="Projects.aspx">
                     <img src="Images/img/banner/banner_holywars.jpg" >
                     <span>
                         Holy Wars by DeValley Entertainment
                     </span>
                 </a>
-                <a href="http://www.devalley-entertainment.com/">
+                <a href="Projects.aspx">
                     <img src="Images/img/banner/banner_nowhere.jpg" >
                     <span>
                         Nowhere by DeValley Entertainment
                     </span>
                 </a>
-                <a href="http://www.devalley-entertainment.com/">
+                <a href="Projects.aspx">
                     <img src="Images/img/banner/banner_crash.jpg" >
                     <span>
                         Crash Of The Titans by DeValley Entertainment
                     </span>
                 </a>
-                <a href="http://www.devalley-entertainment.com/">
+                <a href="Projects.aspx">
                     <img src="Images/img/banner/banner_landers.jpg" >
                     <span>
                         Landers by DeValley Entertainment
                     </span>
                 </a>
-                <a href="http://www.devalley-entertainment.com/">
+                <a href="Projects.aspx">
                     <img src="Images/img/banner/banner_spiderwick.jpg" >
                     <span>
                         The Spiderwick Chronicles by DeValley Entertainment
