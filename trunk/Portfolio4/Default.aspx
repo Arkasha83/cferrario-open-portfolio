@@ -43,6 +43,7 @@ Hello there! I'm Chris Ferrario, welcome to my portfolio.
         <br/>
         <div><img src="Images/personal.jpg" width="350"/></div>
         <div><iframe width="350" height="240" src="https://www.youtube.com/embed/aHstQVfbUVU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
+        <div><i>you can see me in this video at 1.37 minutes</i></iframe></div>
     </div>
     <br style="clear:both;"/>
 </div>
@@ -55,24 +56,17 @@ Hello there! I'm Chris Ferrario, welcome to my portfolio.
         </span>
         <br/>
         <span class="biotext">
-I am very happy in my current position, and certainly have no desire to jump to another similar studio, but this portfolio exists for a reason. I will try to be bluntly honest and 
-            candid here in my explanation as I believe not being so wastes people's time. <br>
-            As I get older, I realize that <i>life is not only about work</i>. Over the years, and over the studios, as many of my contemporary game programmers, 
-            I have gone through the month long crunches, I have slept under my desk, not gone home for 72 hour stretches, laying it all on the line to try 
-            to get projects boxed and shipped before deadlines. But these temporary hardships were never really problematic, they usually have been great team building events. 
-            I have been extremely lucky to have worked with very talented on competent people, people whom I've always had something to learn from but were also lots of fun to be around. 
-            Making games, discussing game systems, solving problems, as well as simply putting the headphones on to enter the "<i>Deep Programming Zone</i>" are things I can no longer live without. 
-            But as I've said earlier, life is not only about work. I am now 30 years old and I am realizing that in the pursuit of my <i>dream career</i> I've selfishly left family and friends 
-            behind in multiple countries and cities, I've missed cousins, aunts and uncles, parents and grand-parents all grow old without me ever finding the time to be around. 
-            My life is now in Montreal, but being American-Italian raised in France, i have the fortune and the misfortune of a very international yet distant family that I miss a lot. Looking to the future, 
-            I feel that traditional game studios might not provide me with the work-life balance I have started craving. Now I realize that my dream of programming for games has evolved, 
-            has crystallized, and <i>life is way too short not to attempt to make your dreams a reality</i>. Today my dream is to work for and with a company or individuals that will allow me to input 
-            some programming into their games, just as i have been doing these years, yet not be always required to be on site to allow me the time catch up with all the friends and family 
-            that I have abroad. Working off site, or telecommuting even temporarily can be a scary proposition and is definitely not for every one, but luckily I have had an experience with it : 
-            my first programming gig was a remote 3 month long non-gaming Java desktop application project during my summer break in computer school. I used this opportunity to move to Lausanne, 
-            Switzerland for that summer and work remotely from there. This was an <i>immensely rewarding</i> experience where I was able to marry the programming time that I crave with time spent with 
-            friends. My client was so satisfied with the work that I received follow up work spanning the next year. My hope here is that some special quirky atypical open minded and adventurous game studio is willing to give 
-            me a shot at living my dream in exchange of my hard work and dedication. 
+             <br>
+            I am now looking for a new experience, something fresh, possibly in a new field. I feel I can use my mobile experience and my enjoyment of web programming and game programming to 
+            be very productive in the right environment. I am especially interested in flexible arangements that will allow me to spend a bit more time with my family in NY and Paris while remaining in Montreal.
+             <br>
+             <br>
+            I am very motivated and very adaptable to new tech. Let me play on your team!
+             <br>
+             <br>
+             <br>
+             <br>
+            <div><img src="Images/personal3.jpg" width="550"/></div>
         </span>
     </div>
     <div class="float-left">
