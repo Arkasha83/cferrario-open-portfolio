@@ -11,15 +11,15 @@
                         <img src="Images/img/logos/gameloft.png">
                     </span>
                     <b>Unamed, Unreleased project</b>
-                    <br> (C++, IOS) - Current
+                    <br> (C++, C#, IOS) - Current
                 </span>
             </a>
         </dt>
         <dd>
             <br /> 
-            This is my current project, it is unanounced.<br /> 
+            This is my current project, it is unanounced. I am working on some game components in C++ as well as some game building tools in C#<br /> 
             <br /> 
-            <b>Skills : C++, IOS, AI, Menus, Gameplay.</b>
+            <b>Skills : C++, C#, IOS, AI, Menus, Gameplay.</b>
             <br/><br/> 
         </dd>
         
@@ -30,7 +30,7 @@
                         <img src="Images/img/logos/gameloft.png">
                     </span>
                     <b>Asphalt 7</b>
-                    <br> (C++, IOS) - 2012
+                    <br> (C++, Java, IOS) - 2012
                 </span>
             </a>
         </dt>
@@ -39,6 +39,7 @@
             <b>Asphalt 7: Heat</b> was my second stint on the franchise. After the success of Asphalt 6, we wanted to polish it as much as possible and push the game to the limits of what the current devices could offer.
             The team started bigger then with Asphalt 6, so I was able to specialize a little more, especially with AI and Gameplay. The Game Engine being very similar to the Asphalt 6 one I was also very useful in maintaining it.
             <br />
+            I also built various game building tools in Java.
             <br />
             Reviews :<br />
             <br />
@@ -50,7 +51,7 @@
            
             <br/>
 
-            <b>Skills : C++, IOS, Game Engine, AI, Menus, Gameplay, 3D, Debugging.</b>
+            <b>Skills : C++, Java, IOS, Game Engine, AI, Menus, Gameplay, 3D, Debugging.</b>
             <br/><br/> 
             
             <div>
@@ -277,7 +278,7 @@
         <dd>
             <br /> 
             <b>Landers</b> is J2ME Midp 2.0 Shoot Them Up game developed by the French company <a href="http://www.devalley.fr">DeValley Entertainment</a> is one of my favorite mobile games, 
-            sadly I only worked on this project to add a score crypting component, and program the php site to decrypt the score codes and rank the players of the game online.<br/><br/> 
+            sadly I only worked on this project to add a score crypting component.<br/><br/> 
             The game features an amazing soundtrack for a cell phone game, fast paced action and addictive gameplay.<br/>
             <br />
             Reviews :<br />
@@ -286,7 +287,7 @@
             <a href="http://www.projectnext.info/index.php?page=Thread&postID=40584&s=bd38a3e3e4f2309d3090b4291f32ffd58ca70f46#post40584">Project Next</a> Score : 90/100, Next Approved Award ( broken link :( )<br/> 
             <br/>
 
-            <b>Skills : Java, Midp, PHP, Cryptography, Web programming</b>
+            <b>Skills : Java, Midp, Cryptography</b>
             <br/><br/> 
             
             <div>
@@ -294,6 +295,26 @@
                 <div class="float-right"><iframe frameborder="0" width="400" height="260" src="http://www.dailymotion.com/embed/video/xc7db2"></iframe><br /><a href="http://www.dailymotion.com/video/xc7db2_landers-invaders-iphone_videogames" target="_blank">Landers Invaders iPhone</a> <i>by <a href="http://www.dailymotion.com/BULKYPIX" target="_blank">BULKYPIX</a></i></div>
                 <br style="clear:both;"/>
             </div>
+        </dd>
+
+        <dt>
+            <a>
+                <span>
+                    <span>
+                        <img src="Images/img/logos/devalley.png">
+                    </span>
+                    <b>Landers Website</b>
+                    <br> (PHP/CSS/HTML/Javascript) - 2008
+                </span>
+            </a>
+        </dt>
+        <dd>
+            <br /> 
+            <b>Landers</b> had a standalone score tracking and player ranking website that I built using PHP. Sadly, this site is no longer available.<br/>
+            <br />
+
+            <b>Skills : PHP, Web programming</b>
+            <br/><br/> 
         </dd>
 
         <dt>

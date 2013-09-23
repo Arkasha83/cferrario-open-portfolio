@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title>Chris Ferrario - Game Programmer - <%: Page.Title %></title>
+    <title>Chris Ferrario - Software Engineer - <%: Page.Title %></title>
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="Scripts/coin-slider-styles.css" rel="stylesheet" type="text/css" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -109,6 +109,7 @@
                 <p>
                     &copy; <%: DateTime.Now.Year %> - Chris-Ferrario.com
                 </p>
+                <a href="http://www.intechinfo.fr/temoignages/christian-ferrario-(90).info"><div><img src="Images/img/intech.png" width="350"/></div></a>
             </div>
             <div class="float-right">
                 <p class="site-title"><a id="A1" runat="server" href="~/"><img src="Images/img/chrisflogo.png"/></a></p>
