@@ -9,9 +9,9 @@
     <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
   </configSections>
   <connectionStrings>
-    <add name="DefaultConnection" providerName="System.Data.SqlClient" connectionString="removed"/>
+    <add name="DefaultConnection" providerName="System.Data.SqlClient" connectionString="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-Portfolio4-20130614022722;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-Portfolio4-20130614022722.mdf"/>
     <add name="MainConnectionString"
-     connectionString="Data Source=removed;Persist Security Info=True;User ID=removed;Password=removed"
+     connectionString="Data Source=chris-ferrario.com;Persist Security Info=True;User ID=;Password="
      providerName="System.Data.SqlClient"/>
   </connectionStrings>
   <system.web>

@@ -40,7 +40,7 @@ public partial class ResetDataBase : System.Web.UI.Page
         {
             if (myConn.State == ConnectionState.Open)
             {
-                BaseballTables.DropAndCreateTables(myConn);
+                //BaseballTables.DropAndCreateTables(myConn);
                 myConn.Close();
             }
         }
