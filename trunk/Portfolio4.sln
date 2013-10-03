@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Portfolio4", "Portfolio4\", "{46E8F777-61DA-42C4-AAC2-EB98FB69F598}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Portfolio4"
+		Debug.AspNetCompiler.PhysicalPath = "Portfolio4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Portfolio4\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Portfolio4"
+		Release.AspNetCompiler.PhysicalPath = "Portfolio4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Portfolio4\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53415"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcBaseball", "MvcBaseball\MvcBaseball.csproj", "{8B29BB98-FA1C-459B-AA78-B3736F42B34A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E8F777-61DA-42C4-AAC2-EB98FB69F598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E8F777-61DA-42C4-AAC2-EB98FB69F598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E8F777-61DA-42C4-AAC2-EB98FB69F598}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E8F777-61DA-42C4-AAC2-EB98FB69F598}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8B29BB98-FA1C-459B-AA78-B3736F42B34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B29BB98-FA1C-459B-AA78-B3736F42B34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B29BB98-FA1C-459B-AA78-B3736F42B34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B29BB98-FA1C-459B-AA78-B3736F42B34A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
