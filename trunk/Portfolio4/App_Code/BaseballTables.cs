@@ -29,7 +29,7 @@ public class BaseballTables
         string str = "CREATE TABLE " + name + "( ID int IDENTITY(1,1) PRIMARY KEY,";
         for (int i = 0; i < fields.Length; i++)
         {
-            str += "\"" + fields[i] + "\" varchar(100)";
+            str += "\"" + fields[i] + "\" varchar(60)";
             if (i < fields.Length - 1)
                 str += ",";
         }
@@ -130,6 +130,7 @@ public class BaseballTables
 
                         //some specific handling is needed because of weird stuff
                         line = line.Replace("'", "*");
+                        line = line.Replace("\"", "|");
                         string[] words = ParseLine(line);
                         int entryLen = words.Length;
 
