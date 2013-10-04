@@ -29,7 +29,7 @@ public class BaseballTables
         string str = "CREATE TABLE " + name + "( ID int IDENTITY(1,1) PRIMARY KEY,";
         for (int i = 0; i < fields.Length; i++)
         {
-            str += "\"" + fields[i] + "\" varchar(60)";
+            str += "\"" + fields[i] + "\" varchar(100)";
             if (i < fields.Length - 1)
                 str += ",";
         }
@@ -63,7 +63,7 @@ public class BaseballTables
         {
             switch (line[i])
             {
-                case '"':
+                case '|':
                     insideQuotes = !insideQuotes;
                     break;
                 case ',':
@@ -97,7 +97,7 @@ public class BaseballTables
             string ext = Path.GetExtension(s);
             string tableName = Path.GetFileNameWithoutExtension(s);
 
-            OutputText1 = "Handling table #" + tableID + " " + tableName + " out of " + directories.Length + " tables";
+            OutputText1 = "Handling table #" + (tableID+1) + " " + tableName + " out of " + directories.Length + " tables";
             
             tableID++;
             if (ext.Equals(".csv"))
@@ -149,7 +149,7 @@ public class BaseballTables
                         }
 
                         totalEntries++;
-                        OutputText2 = "Handling entry #" + totalEntries + " out of " + lineCount + " entries";
+                        OutputText2 = "Handling entry #" + (totalEntries+1) + " out of " + lineCount + " entries";
                     }
                     if (entries != 0)
                     {
