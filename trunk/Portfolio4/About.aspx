@@ -11,6 +11,14 @@
             I have fooled around with a few side projects over the years though, for example:<br />
         </p>
 
+        <br /><h2>Playing Around with ASP.Net:</h2><br />
+
+        <p>        
+            Fun with baseball (ASP.Net): <a href="Baseball.aspx">Link</a><br />
+        </p>
+
+        <br /><h2>Barbu Dent Bleu Soccer: ( or the mobile version of Barbu Soccer )</h2><br />
+
         <br /><h2>Cross Platform Tetris Project:</h2><br />
 
         <p>        

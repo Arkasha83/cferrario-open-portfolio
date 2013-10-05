@@ -1,20 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Baseball.aspx.cs" Inherits="Baseball" %>
+﻿<%@ Page Title="Fun With Baseball" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Baseball.aspx.cs" Inherits="Baseball" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <script type="text/javascript">
-        function EnterEvent(e) {
-            if (e.keyCode == 13) {
-                __doPostBack('<%=Button1.UniqueID%>', "");
-            }
-        }
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+<script type="text/javascript">
+    function EnterEvent(e) {
+        if (e.keyCode == 13) {
+            __doPostBack('<%=Button1.UniqueID%>', "");
+    }
+}
 </script>
-    <title></title>
-</head>
-<body style="text-align: center">
-    <form id="form1" runat="server">
+<div style="text-align: center">
     <div>
 
         I mainly work in C++ or Java, but I enjoy C# as well as ASP.Net a lot, especially for anything web related. I&#39;ve been playing around with it on the side for fun and wanted to showcase that I could do a few things with it.<br />
@@ -37,13 +31,13 @@
         <asp:GridView HorizontalAlign="Center" ID="GridView1" runat="server" DataSourceID="EntityDataSource1" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="ID" ForeColor="#333333" GridLines="None" ShowFooter="True" ShowHeaderWhenEmpty="True" PageSize="25" AllowSorting="True">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
-                <asp:BoundField DataField="nameFirst" HeaderText="nameFirst" SortExpression="nameFirst" />
-                <asp:BoundField DataField="nameLast" HeaderText="nameLast" SortExpression="nameLast" />
-                <asp:BoundField DataField="birthYear" HeaderText="birthYear" SortExpression="birthYear" />
-                <asp:BoundField DataField="birthCountry" HeaderText="birthCountry" SortExpression="birthCountry" />
-                <asp:BoundField DataField="birthCity" HeaderText="birthCity" SortExpression="birthCity" />
-                <asp:BoundField DataField="bats" HeaderText="bats" SortExpression="bats" />
-                <asp:BoundField DataField="throws" HeaderText="throws" SortExpression="throws" />
+                <asp:BoundField DataField="nameFirst" HeaderText="First" SortExpression="nameFirst" />
+                <asp:BoundField DataField="nameLast" HeaderText="Last" SortExpression="nameLast" />
+                <asp:BoundField DataField="birthYear" HeaderText="Birth Year" SortExpression="birthYear" />
+                <asp:BoundField DataField="birthCountry" HeaderText="Birth Country" SortExpression="birthCountry" />
+                <asp:BoundField DataField="birthCity" HeaderText="Birth City" SortExpression="birthCity" />
+                <asp:BoundField DataField="bats" HeaderText="Bats" SortExpression="bats" />
+                <asp:BoundField DataField="throws" HeaderText="Throws" SortExpression="throws" />
             </Columns>
             <EditRowStyle BackColor="#2461BF" />
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
@@ -63,6 +57,5 @@
      ContextTypeName="Masters" EntitySetName="Masters" AutoGenerateOrderByClause="True" AutoGenerateWhereClause="True" EntityTypeFilter="Master" ViewStateMode="Enabled" EnableFlattening="False">
         </asp:EntityDataSource>
     </div>
-    </form>
-</body>
-</html>
+</div>
+</asp:Content>
