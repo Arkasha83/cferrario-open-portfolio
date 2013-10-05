@@ -4,9 +4,6 @@
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     
 
-    <div id="div1" runat="server"><a> Click </a></div>
-    <div id="divChangeMe" runat="server">Hello World</div>
-
     <dl class="accordion">
 
         <dt>
