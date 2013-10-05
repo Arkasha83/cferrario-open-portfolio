@@ -4,25 +4,51 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <script type="text/javascript">
+        function EnterEvent(e) {
+            if (e.keyCode == 13) {
+                __doPostBack('<%=Button1.UniqueID%>', "");
+            }
+        }
+</script>
     <title></title>
 </head>
-<body>
+<body style="text-align: center">
     <form id="form1" runat="server">
     <div>
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 
-        <asp:GridView ID="GridView1" runat="server" DataSourceID="EntityDataSource1" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="ID" ForeColor="#333333" GridLines="None" ShowFooter="True" ShowHeaderWhenEmpty="True">
+        I mainly work in C++ or Java, but I enjoy C# as well as ASP.Net a lot, especially for anything web related. I&#39;ve been playing around with it on the side for fun and wanted to showcase that I could do a few things with it.<br />
+        <br />
+        I have for example uploaded Lahman&#39;s baseball database ( <a href="http://www.seanlahman.com/baseball-archive/statistics/">http://www.seanlahman.com/baseball-archive/statistics/</a> ) to my database server through parsing of the .csv and programmatically generating SQL INSERT calls.<br />
+        I then generated an edmx file of the database using Entity Framework to finally use an EntityDataSource to fill out the following GridView.<br />
+        <br />
+        Find player by City :
+        <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"  onkeypress="return EnterEvent(event)"></asp:TextBox>
+        <br />
+        Find player by Country :
+        <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged" onkeypress="return EnterEvent(event)"></asp:TextBox>
+        <br />
+        Find player by LastName :
+        <asp:TextBox ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged" onkeypress="return EnterEvent(event)"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="Button1" runat="server" style="display:none" Text="Button" />
+
+        <asp:GridView HorizontalAlign="Center" ID="GridView1" runat="server" DataSourceID="EntityDataSource1" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="ID" ForeColor="#333333" GridLines="None" ShowFooter="True" ShowHeaderWhenEmpty="True" PageSize="25" AllowSorting="True">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
-                <asp:BoundField  DataField="ID" HeaderText="ID" SortExpression="ID" ReadOnly="True"/>
-                <asp:BoundField DataField="franchID" HeaderText="franchID" SortExpression="franchID" />
-                <asp:BoundField DataField="franchName" HeaderText="franchName" SortExpression="franchName" />
-                <asp:BoundField DataField="active" HeaderText="active" SortExpression="active" />
-                <asp:BoundField DataField="NAassoc" HeaderText="NAassoc" SortExpression="NAassoc" />
+                <asp:BoundField DataField="nameFirst" HeaderText="nameFirst" SortExpression="nameFirst" />
+                <asp:BoundField DataField="nameLast" HeaderText="nameLast" SortExpression="nameLast" />
+                <asp:BoundField DataField="birthYear" HeaderText="birthYear" SortExpression="birthYear" />
+                <asp:BoundField DataField="birthCountry" HeaderText="birthCountry" SortExpression="birthCountry" />
+                <asp:BoundField DataField="birthCity" HeaderText="birthCity" SortExpression="birthCity" />
+                <asp:BoundField DataField="bats" HeaderText="bats" SortExpression="bats" />
+                <asp:BoundField DataField="throws" HeaderText="throws" SortExpression="throws" />
             </Columns>
             <EditRowStyle BackColor="#2461BF" />
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+            <PagerSettings PageButtonCount="20" />
             <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
             <RowStyle BackColor="#EFF3FB" />
             <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
@@ -34,7 +60,7 @@
         <asp:EntityDataSource ID="EntityDataSource1" runat="server" OnContextCreating="EntityDataSource1_ContextCreating" 
     ConnectionString="name=Entities" 
     DefaultContainerName="Entities"  
-     ContextTypeName="Masters" EntitySetName="TeamsFranchises" AutoGenerateOrderByClause="True" AutoGenerateWhereClause="True" EntityTypeFilter="TeamsFranchis" ViewStateMode="Enabled">
+     ContextTypeName="Masters" EntitySetName="Masters" AutoGenerateOrderByClause="True" AutoGenerateWhereClause="True" EntityTypeFilter="Master" ViewStateMode="Enabled" EnableFlattening="False">
         </asp:EntityDataSource>
     </div>
     </form>
