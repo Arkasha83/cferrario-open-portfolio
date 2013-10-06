@@ -26,6 +26,7 @@
         <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Team" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
         <EntityTypeShape EntityType="hrisfhot3014com12985_Model.TeamsFranchis" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="true" />
         <EntityTypeShape EntityType="hrisfhot3014com12985_Model.TeamsHalf" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.project" Width="1.5" PointX="6.8047642627753149" PointY="22.697401549060551" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
