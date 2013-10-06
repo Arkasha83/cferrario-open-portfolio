@@ -29,7 +29,7 @@ public class BaseballTables
         string str = "CREATE TABLE " + name + "( ID int IDENTITY(1,1) PRIMARY KEY,";
         for (int i = 0; i < fields.Length; i++)
         {
-            str += "\"" + fields[i] + "\" varchar(100)";
+            str += "\"" + fields[i] + "\" varchar(150)";
             if (i < fields.Length - 1)
                 str += ",";
         }
@@ -139,7 +139,7 @@ public class BaseballTables
                         entries++;
 
                         // quick dirty reset need to redo the loop!
-                        if (entries >= 1000)
+                        if (entries >= 1)
                         {
                             entries = 0;
                             str += ";";

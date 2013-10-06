@@ -21,7 +21,7 @@ public partial class Entities : DbContext
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
     {
-       throw new UnintentionalCodeFirstException();
+        throw new UnintentionalCodeFirstException();
     }
 
     public DbSet<AllstarFull> AllstarFulls { get; set; }
@@ -45,4 +45,5 @@ public partial class Entities : DbContext
     public DbSet<Team> Teams { get; set; }
     public DbSet<TeamsFranchis> TeamsFranchises { get; set; }
     public DbSet<TeamsHalf> TeamsHalves { get; set; }
+    public DbSet<project> projects { get; set; }
 }
