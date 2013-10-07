@@ -131,10 +131,10 @@
   </data>
   <data name="Asphalt_7_-_Heat_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=OXP9Rcr7OLQ"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=vpQnWQYoRSg"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=aHstQVfbUVU"&gt;Dev Diary 1&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=S8MSJywrgek"&gt;Dev Diary 2&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=OXP9Rcr7OLQ"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=vpQnWQYoRSg"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=aHstQVfbUVU"&gt;Dev Diary 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=S8MSJywrgek"&gt;Dev Diary 2&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://itunes.apple.com/ca/app/asphalt-7-heat/id462694916?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA7HM&amp;hl=en"&gt;Google Play&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;/div&gt;	</value>
@@ -154,7 +154,7 @@
   </data>
   <data name="Fast_Five_the_Movie_-_Official_Game_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=mKHyI-AAP00"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?feature=player_embedded&amp;v=mKHyI-AAP00"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://itunes.apple.com/ca/app/fast-five-movie-official-game/id422299509?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
@@ -181,8 +181,8 @@
     <value>
 &lt;div class="cpojer-links"&gt;
 &lt;a href="http://www.asphalt6adrenaline.com/"&gt;Official website&lt;/a&gt;&lt;br /&gt;
-&lt;a href="https://www.youtube.com/watch?v=qa7a2OQs5gM"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=UgDDNIHPb2Q"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=qa7a2OQs5gM"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=UgDDNIHPb2Q"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://itunes.apple.com/ca/app/asphalt-6-adrenaline/id400973408?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA6HP&amp;hl=en"&gt;Google Play&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
@@ -200,9 +200,9 @@
   </data>
   <data name="GT_Racing_-_Motor_Academy_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="http://www.gtracingmotoracademy.com"&gt;Official Website&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=bV6I6SgofeI"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=OMF4k-c7rRA"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="http://www.gtracingmotoracademy.com"&gt;Official Website&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=bV6I6SgofeI"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=OMF4k-c7rRA"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://itunes.apple.com/ca/app/gt-racing-motor-academy-free+/id442684727?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
 &lt;a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftGTFM&amp;hl=en"&gt;Google Play&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;	</value>
@@ -217,7 +217,7 @@
   </data>
   <data name="My_Hero-_Astronaut_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=vSnXYkqRYLA"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=vSnXYkqRYLA"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 (From 0:40 to 1:00)
 &lt;/div&gt;</value>
   </data>
@@ -238,8 +238,8 @@
   </data>
   <data name="Crash_of_the_Titans_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=6t0jXbxwk-c"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=95CNJDBbxzo"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=6t0jXbxwk-c"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=95CNJDBbxzo"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="Holy_Wars" xml:space="preserve">
@@ -255,8 +255,8 @@
   </data>
   <data name="Holy_Wars_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=DDY0BJ8iAC0"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=-kAUJj8AQj8"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=DDY0BJ8iAC0"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=-kAUJj8AQj8"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="Landers" xml:space="preserve">
@@ -272,8 +272,8 @@
   </data>
   <data name="Landers_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=NhxqAUoRQC4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
-&lt;a href="http://www.dailymotion.com/video/xc7db2_landers-invaders-iphone_videogames"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=NhxqAUoRQC4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="http://www.dailymotion.com/video/xc7db2_landers-invaders-iphone_videogames"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 
 &lt;/div&gt;</value>
   </data>
@@ -296,8 +296,8 @@
   </data>
   <data name="Nowhere_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=PzIkvNQPKCk"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=LD92v_W9-nk"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=PzIkvNQPKCk"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=LD92v_W9-nk"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="Spooks_the_Mobile_Game" xml:space="preserve">
@@ -313,8 +313,8 @@
   </data>
   <data name="Spooks_the_Mobile_Game_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="http://www.gameloft.co.uk/mobile-games/spooks/"&gt;Discontinued&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=UKghqY8hvOw"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="http://www.gameloft.co.uk/mobile-games/spooks/"&gt;Discontinued&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=UKghqY8hvOw"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="The_Spiderwick_Chronicles" xml:space="preserve">
@@ -342,8 +342,8 @@
   </data>
   <data name="The_Spiderwick_Chronicles_2" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="https://www.youtube.com/watch?v=fk2E3sPZgEE"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
-&lt;a href="https://www.youtube.com/watch?v=oPlabgqRz6A"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=fk2E3sPZgEE"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=oPlabgqRz6A"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
 </root>

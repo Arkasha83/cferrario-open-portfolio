@@ -141,55 +141,6 @@ h5, h6 {
         padding: 0;
         text-decoration: none;
     }
-    
-/* accordion
-----------------------------------------------------------*/
-.accordion {
-    font: 16px Sans-Serif;
-    margin: 50px;
-}
-
-.accordion  dt {
-    background-color:#d46c2f;
-    padding:0;
-    margin:0;
-    cursor: pointer;
-  }
-.accordion  dd {
-     border-top: 0; 
-     font-size: 14px;
-    padding:16px;
-  }
-
-.accordion dt a {
-    text-decoration: none;
-    display: block;
-}
-
-.accordion * {
-    padding:0;
-    margin:0;
-}
-
-.accordion dt a span 
-{
-    text-align:center;
-    display: block;
-    height:60px;
-    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif; 
-    color: #fff;
-    font-size: 1.2em;
-}
-.accordion img
-{
-  height:60px;
-  width:130px;
-}
-
-.accordion dt a span span
-{
-  float:left;
-}
 
 /* main layout
 ----------------------------------------------------------*/

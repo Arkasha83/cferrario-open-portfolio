@@ -8,14 +8,7 @@
     <link href="~/Content/Site.css" rel="stylesheet" />
     <link href="Scripts/coin-slider-styles.css" rel="stylesheet" type="text/css" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <script type="text/javascript" src="Scripts/jquery-1.8.2.js"></script>
-    <script type="text/javascript" src="Scripts/jquery-1.8.2.min.js"></script>
-    <script src="//code.jquery.com/jquery-latest.min.js"></script>
-    <script src="//unslider.com/unslider.min.js"></script>   
-</head>
-    <asp:PlaceHolder runat="server">           
-        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.6.2.js") %>"></script>
-    </asp:PlaceHolder>
+    <link href="Scripts/magnific-popup.css" rel="stylesheet" type="text/css" > 
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
@@ -122,7 +115,9 @@
     </footer>
     </form>
 
-	<!-- Other Scripts -->		
+	<!-- Other Scripts -->	
+    <script type="text/javascript" src="Scripts/jquery-1.8.2.min.js"></script>
+    <script src="Scripts/popup.js"></script> 	
 		
 
 	<!-- Instantiate Menu -->
@@ -155,20 +150,23 @@
 
     </script>
     <script type="text/javascript" src="Scripts/coin-slider.min.js"></script>
-    <script type="text/javascript">jQuery(document).ready(function ()
-        {
-    jQuery('#coin-slider').coinslider(
-        {
-            width: 960,
-            height: 240,
-            opacity: 0.8,
-            titleSpeed: 5000,
-            delay: 6000
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.popup').magnificPopup({
+                type: 'iframe'
+            });
         });
+        jQuery(document).ready(function ()
+        {
+            jQuery('#coin-slider').coinslider(
+            {
+                width: 960,
+                height: 240,
+                opacity: 0.8,
+                titleSpeed: 5000,
+                delay: 6000
+            });
         });
-
-    </script>
-    <script  type="text/javascript" language="javascript">
         (function ($) {
 
             var allPanels = $('.accordion > dd').hide();
