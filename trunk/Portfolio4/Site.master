@@ -88,9 +88,10 @@
                     <nav>
                         <ul id="menu">
                             <li><a id="A2" runat="server" href="~/">Bio</a></li>
-                            <li><a id="A3" runat="server" href="~/Projects">Projects</a></li>
-                            <li><a id="A4" runat="server" href="~/About">Code Examples</a></li>
-                            <li><a id="A5" runat="server" href="~/Contact">Contact</a></li>
+                            <li><a id="A3" runat="server" href="~/Projects.aspx">Projects</a></li>
+                            <li><a id="A4" runat="server" href="~/About.aspx">Code Examples</a></li>
+                            <li><a id="A6" runat="server" href="~/Game.aspx">Unity Example</a></li>
+                            <li><a id="A5" runat="server" href="~/Contact.aspx">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
