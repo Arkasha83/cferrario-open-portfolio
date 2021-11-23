@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Asphalt_7_-_Heat" xml:space="preserve">
+    <value>&lt;br /&gt;The follow up to Adrenaline. Heat had a much larger team allowing me to focus mostly on Artificial Intelligence and Gameplay.
+           &lt;br /&gt;&lt;br /&gt; Reviews :&lt;br /&gt;
+            &lt;a href="http://ca.ign.com/articles/2012/07/19/asphalt-7-heat-review"&gt;IGN&lt;/a&gt; Score:8/10, 
+            &lt;a href="http://www.metacritic.com/game/ios/asphalt-7-heat"&gt;Metacritic&lt;/a&gt; Score:83/100, 
+            &lt;a href="http://www.wired.com/gamelife/2012/06/review-asphalt-7-heat/"&gt;WIRED&lt;/a&gt; Score:6/10,  
+            &lt;a href="http://reviews.cnet.com/software/asphalt-7-heat-ios/4505-3513_7-35475219.html"&gt;c|net&lt;/a&gt; Score:4/5, Excellent, 
+            &lt;a href="http://www.pocketgamer.co.uk/r/Multiformat/Asphalt+7%3A+Heat/review.asp?c=42451"&gt;Pocket Gamer&lt;/a&gt; Score:8/10, Silver Award
+&lt;br /&gt;
+&lt;br /&gt;
+</value>
+  </data>
+  <data name="Asphalt_7_-_Heat_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=OXP9Rcr7OLQ"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=vpQnWQYoRSg"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=aHstQVfbUVU"&gt;Dev Diary 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=S8MSJywrgek"&gt;Dev Diary 2&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://itunes.apple.com/ca/app/asphalt-7-heat/id462694916?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA7HM&amp;hl=en"&gt;Google Play&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;/div&gt;	</value>
+  </data>
+  <data name="Unanounced_IOS_Racer" xml:space="preserve">
+    <value>&lt;br /&gt;Coming soon...&lt;br /&gt;Extended the Vehicle AI systems with a lot more capabilities and optimizations.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Dungeon_Hunter_5" xml:space="preserve">
+    <value>&lt;br /&gt;The last project I worked on before getting hired by Slightly Mad Studios.&lt;br /&gt; Havok Physics work and Pipeline tools with a bit of Gameplay.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Unanounced_IOS_Unreal_Game" xml:space="preserve">
+    <value>&lt;br /&gt;Unreleased.&lt;br /&gt;I was involved in AI and building a new Unreal OS based Game Engine&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Fast_Five_the_Movie_-_Official_Game" xml:space="preserve">
+    <value>&lt;br /&gt;I assisted remotely their Artificial Intelligence team to work on their AI system as the team on this project decided to use Asphalt 6's system as a base for their game.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+</value>
+  </data>
+  <data name="Fast_Five_the_Movie_-_Official_Game_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?feature=player_embedded&amp;v=mKHyI-AAP00"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://itunes.apple.com/ca/app/fast-five-movie-official-game/id422299509?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Unanounced_IOS_Racer_extra" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Dungeon_Hunter_5_extra" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Unanounced_IOS_Unreal_Game_extra" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Asphalt_6_-_Adrenaline" xml:space="preserve">
+    <value>&lt;br /&gt;Asphalt 6 : Adrenaline :  I was one of the two programmers who were part of this project from start to finish so I had big responsibilities such as designing and implementing a racing AI system that was then used in multiple other racing projects and a lot of other core engine systems ranging from Main-loop code, Hud Interface, Gameplay systems, Animated environments and pickables, Controls, and Menus.&lt;br /&gt;
+            &lt;br /&gt;
+
+            Reviews :
+            &lt;br /&gt;&lt;a href="http://ca.ign.com/articles/2010/12/23/asphalt-6-adrenaline-iphone-review"&gt;IGN&lt;/a&gt; Score:7.5/10, 
+            &lt;br /&gt;&lt;a href="http://www.metacritic.com/game/ios/asphalt-6-adrenaline"&gt;Metacritic&lt;/a&gt; Score:78/100, 
+            &lt;br /&gt;&lt;a href="http://www.wired.com/reviews/2011/11/asphalt-6-adrenaline-app/"&gt;WIRED&lt;/a&gt; Score:8/10,  
+            &lt;br /&gt;&lt;a href="http://www.slidetoplay.com/review/asphalt-6-adrenaline-review/"&gt;Slide to Play&lt;/a&gt; Score:3/4, Good,  
+            &lt;br /&gt;&lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Asphalt+6%3A+Adrenaline/review.asp?c=33066"&gt;Pocket Gamer&lt;/a&gt; Score:9/10, Gold Award&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Asphalt_6_-_Adrenaline_extra" xml:space="preserve">
+    <value>
+&lt;div class="cpojer-links"&gt;
+&lt;a href="http://www.asphalt6adrenaline.com/"&gt;Official website&lt;/a&gt;&lt;br /&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=qa7a2OQs5gM"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=UgDDNIHPb2Q"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://itunes.apple.com/ca/app/asphalt-6-adrenaline/id400973408?mt=8"&gt;iTunes&lt;/a&gt;&lt;br/&gt;
+&lt;a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftA6HP&amp;hl=en"&gt;Google Play&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="GT_Racing_-_Motor_Academy" xml:space="preserve">
+    <value>&lt;br /&gt;My first project in the Gameloft Montreal Studio, worked mostly on menus, push notifications and debugging.
+&lt;br /&gt;&lt;br /&gt;Reviews :
+            &lt;br /&gt;&lt;a href="http://ca.ign.com/articles/2010/02/09/gt-racing-motor-academy-review"&gt;IGN&lt;/a&gt; Score:8.5/10, IGN Editor's choice Award, 
+            &lt;br /&gt;&lt;a href="http://toucharcade.com/2010/02/07/gt-racing-motor-academy-races-into-app-store/"&gt;Touch Arcade&lt;/a&gt; Score:4/5 Stars, 
+            &lt;br /&gt;&lt;a href="http://www.ilounge.com/index.php/reviews/entry/gameloft-gt-racing-motor-academy/"&gt;iLounge&lt;/a&gt; Score:B, Recommended, 
+            &lt;br /&gt;&lt;a href="http://www.knowyourmobile.com/games/15439/gt-racing-motor-academy-hd-review-android"&gt;Know Your Mobile&lt;/a&gt; Score:4.5/5 Stars, 
+            &lt;br /&gt;&lt;a href="http://www.slidetoplay.com/review/gt-racing-motor-academy-review/"&gt;Slide to Play&lt;/a&gt; Score:3/4, Good, 
+            &lt;br /&gt;&lt;a href="http://www.pocketgamer.co.uk/r/iPhone/GT+Racing%3A+Motor+Academy+(iPhone)/review.asp?c=18327"&gt;Pocket Gamer&lt;/a&gt; Score:8/10, Silver Award&lt;br/&gt;&lt;br/&gt;
+   </value>
+  </data>
+  <data name="GT_Racing_-_Motor_Academy_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=bV6I6SgofeI"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=OMF4k-c7rRA"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;	</value>
+  </data>
+  <data name="My_Hero-_Astronaut" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            VG Creator was a short lived studio that suffered like so many others from the hardships of 2008. Their best known work is &lt;a href="http://www.gamefaqs.com/ds/943220-horse-life/reviews/review-120613"&gt;Horse Life&lt;/a&gt; for the Nintendo DS.
+
+            &lt;br/&gt;&lt;b&gt;My Hero: Astronaut&lt;/b&gt; was to be released by Majesco in the US as a 3D space exploration game for Nintendo DS. The game had been anounced and and had been presented at the 2009 E3. 
+            It was however cancelled due to lack of funding.&lt;br&gt;I was main programmer on this project which required the building of a brand new game engine on top of the company's base library wrapper of the Nintedo DS functions.
+&lt;br&gt;&lt;br&gt;</value>
+  </data>
+  <data name="My_Hero-_Astronaut_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=vSnXYkqRYLA"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+(From 0:40 to 1:00)
+&lt;/div&gt;</value>
+  </data>
+  <data name="Crash_of_the_Titans" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            This J2ME Midp 2.0 Beat Them Up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt;.&lt;br /&gt;
+        I worked mostly on HUD, a dialogue engine, and general debugging.&lt;br /&gt;
+            &lt;br /&gt;
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Crash+of+the+Titans/review.asp?c=4525"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score:5/10&lt;br/&gt;
+            &lt;a href="http://www.mobilegamefaqs.com/reviewfull.php?id=1403&amp;name=Crash+of+the+Titans"&gt;Mobile Game FAQs&lt;/a&gt; Score:85/100&lt;br/&gt;
+            &lt;u&gt;IGN&lt;/u&gt; Score:6/10&lt;br/&gt;&lt;br/&gt;
+            </value>
+  </data>
+  <data name="Crash_of_the_Titans_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=6t0jXbxwk-c"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=95CNJDBbxzo"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Holy_Wars" xml:space="preserve">
+    <value>&lt;br/&gt;
+            &lt;b&gt;Holy Wars&lt;/b&gt; is J2ME Midp 2.0 Beat Them Up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; is was one of their most successful titles.&lt;br/&gt;
+             I was put in charge of porting and resolving a lot of device specific bugs as we then covered about 650 different Java devices.&lt;br/&gt;
+            &lt;br /&gt;
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Holy+Wars%3A+Sons+of+Enoch/review.asp?c=4926"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score:6/10&lt;br/&gt;&lt;br/&gt; </value>
+  </data>
+  <data name="Holy_Wars_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=DDY0BJ8iAC0"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=-kAUJj8AQj8"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Landers" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            &lt;b&gt;Landers&lt;/b&gt; is J2ME Midp 2.0 Shoot Them Up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; is one of my favorite mobile games, and I worked on this project to add a score crypting component.&lt;br/&gt;
+            The game features an amazing soundtrack for a cell phone game, fast paced action and addictive gameplay.&lt;br/&gt;
+            &lt;br /&gt;
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Landers/news.asp?c=5705"&gt;Pocket Gamer.co.uk&lt;/a&gt; Preview&lt;br/&gt; 
+            &lt;u&gt;Project Next&lt;/u&gt; Score : 90/100, Next Approved Award&lt;br/&gt; 
+            &lt;br/&gt;</value>
+  </data>
+  <data name="Landers_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=NhxqAUoRQC4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="http://www.dailymotion.com/video/xc7db2_landers-invaders-iphone_videogames"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+
+&lt;/div&gt;</value>
+  </data>
+  <data name="Nowhere" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            &lt;b&gt;Nowhere&lt;/b&gt; is a J2ME Midp 2.0 Survival Horror Game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt;.&lt;br/&gt;
+            I was the lead programmer for the development of this project and worked on some of the porting.&lt;br/&gt;
+            The goal was to create a very disturbing atmosphere, just like the feeling that can be experienced when watching a classic horror movie.&lt;br /&gt;
+            The game was also nominated for two awards at the Festival du Jeu Vidéo 2007 in France, 
+            for Best Scenario and Best Mobile Game.&lt;br /&gt;&lt;br /&gt;
+            Reviews: &lt;br /&gt;
+            &lt;a href="http://www.hardcoregaming101.net/nowhere/nowhere.htm"&gt;Hardcore Gaming review&lt;/a&gt;&lt;br /&gt; 
+            &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Nowhere/review.asp?c=5376"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score : 7/10, Bronze Award&lt;br /&gt; 
+            &lt;u&gt;Midlet-Review&lt;/u&gt; Score : 9/10, Mobile Game Award&lt;br /&gt; 
+            &lt;u&gt;Mobile Game FAQs&lt;/u&gt; Score : 82/100, Silver Award&lt;br /&gt; 
+            &lt;u&gt;Project Next&lt;/u&gt; Score : 89/100, Next Approved Award&lt;br /&gt;&lt;br /&gt; </value>
+  </data>
+  <data name="Nowhere_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=PzIkvNQPKCk"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=LD92v_W9-nk"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Spooks_the_Mobile_Game" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            &lt;b&gt;Spooks The Mobile Game&lt;/b&gt; is a J2ME Midp 2.0 Click and Play Game developed by Gameloft New York, based on the adventures of the British TV MI5 spies. &lt;br/&gt;
+            I helped the Lead game designer with scripting while I also helped the two programmers debug the game before going gold.&lt;br/&gt;
+            &lt;br /&gt;
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Spooks/review.asp?c=10190"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score : 7/10, Bronze Award&lt;br&gt; 
+            &lt;br/&gt;</value>
+  </data>
+  <data name="Spooks_the_Mobile_Game_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=UKghqY8hvOw"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="The_Spiderwick_Chronicles" xml:space="preserve">
+    <value>&lt;br /&gt; 
+            &lt;b&gt;The Spiderwick Chronicles&lt;/b&gt; is a J2ME Midp 2.0 Adventure Game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; .&lt;br/&gt;
+            I was the lead programmer for the development of this project.&lt;br/&gt;
+            This game was created in anticipation of the Paramount movie and was a licensed product designed to target the same audience that the movie and 
+            Tony DiTerlizzi and Holly Black's novels.&lt;br/&gt;&lt;br/&gt; 
+        
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/The+Spiderwick+Chronicles/review.asp?c=6085"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score : 7/10, Bronze Award&lt;br&gt; 
+            &lt;br/&gt; </value>
+  </data>
+  <data name="The_Spiderwick_Chronicles_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=fk2E3sPZgEE"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=oPlabgqRz6A"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Project_CARS" xml:space="preserve">
+    <value>&lt;br/&gt;	&lt;a href="http://www.projectcarsgame.com/"&gt;Project CARS&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/wiki/Project_CARS"&gt;wiki&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;
+I joined the team late 2013 to take over the Driver Racing AI duties.
+            &lt;br /&gt;&lt;br /&gt;
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.metacritic.com/game/pc/project-cars"&gt;Metacritic&lt;/a&gt; Score:83/100
+&lt;br/&gt;&lt;br/&gt;
+
+</value>
+  </data>
+  <data name="Project_CARS_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a href="http://www.projectcarsgame.com/"&gt;Official website&lt;/a&gt;&lt;br /&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=p6n3xNdBvJ8"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=nCYq7eiO5X4"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Red_Bull_Air_Race_-_The_Game" xml:space="preserve">
+    <value>&lt;br/&gt;Coming soon...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="Red_Bull_Air_Race_-_The_Game_extra" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Project_CARS_2" xml:space="preserve">
+    <value>&lt;br/&gt;	&lt;a href="http://www.projectcarsgame.com/"&gt;Project CARS&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/wiki/Project_CARS_2"&gt;wiki&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;
+Took the AI duties of this project from beginning to end building on the work done in the first iteration of the franchise.
+            &lt;br /&gt;&lt;br /&gt;
+            Reviews :&lt;br /&gt;
+            &lt;a href="http://www.metacritic.com/game/pc/project-cars-2"&gt;Metacritic&lt;/a&gt; Score:86/100
+&lt;br/&gt;&lt;br/&gt;</value>
+  </data>
+  <data name="Project_CARS_2_extra" xml:space="preserve">
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a href="http://www.projectcarsgame.com/"&gt;Official website&lt;/a&gt;&lt;br /&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=0YrrK92fQmk"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=xRkfDBK3rDk"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
+  </data>
+</root>
