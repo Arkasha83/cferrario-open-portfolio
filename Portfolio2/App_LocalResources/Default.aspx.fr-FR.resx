@@ -1,144 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="BioRsc.Text" xml:space="preserve">
-    <value>&lt;div class="container"&gt;Bienvenu sur chris-ferrario.com et merci de votre visite.&lt;br/&gt;&lt;br/&gt;J'ai construit ce site pour présenter mes expériences et mes aquis.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="texttitle"&gt;Qui suis-je?&lt;/span&gt;&lt;br&gt;&lt;br&gt;Mon nom est Christian Ferrario, je suis un programmeur de 25 ans Italo-Américain et je parle Anglais, Français et Italien.&lt;br&gt;&lt;br&gt; Je suis diplômé Technologue de l'école &lt;a href="http://www.intechinfo.fr/"&gt;In’Tech INFO&lt;/a&gt; à Paris où j'ai suivi la filière Ingénieurie du Logiciel.&lt;br&gt; &lt;br&gt; Même en étant aujourd'hui employé je continue de dévorer livres et tutoriaux relatifs à la programmation de jeux vidéo ce qui me permets de pousser mes projets toujours plus loin.&lt;br&gt; J'ai maintenant presque deux ans d'expérience professionnelle après avoir fait partie de &lt;a href="http://www.devalley-entertainment.com/"&gt;DeValley Entertainment&lt;/a&gt; à Paris et &lt;a href ="www.gameloft.com"&gt;Gameloft&lt;/a&gt; à New York ainsi que participé à 6 projets commerciaux.&lt;br&gt;&lt;br&gt;&lt;span class="texttitle"&gt;Qu'ai-je fait?&lt;br&gt;&lt;br&gt;&lt;/span&gt;J'ai travaillé sur cinq projets professionels avec DeValley Entertainement entre 2007 et 2008.&lt;ul&gt;&lt;li&gt;&lt;b&gt;Nowhere&lt;/b&gt; (nominé meilleur jeu mobile français 2007) &lt;/li&gt;&lt;li&gt;&lt;b&gt;The Spiderwick Chronicles&lt;/b&gt; (publié par Vivendi Universal Games Mobile)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Landers&lt;/b&gt; (nominé meilleur jeu mobile français 2008)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Holy Wars&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Crash of the Titans&lt;/b&gt; (publié par Vivendi Universal Games Mobile)&lt;/li&gt;&lt;/ul&gt;(Note: I was the main programmer for Nowere and the Spiderwick Chronicles)&lt;br&gt;&lt;br&gt;J'ai aussi travaillé sur un projet Gameloft en 2008.&lt;ul&gt;&lt;li&gt;&lt;b&gt;Spooks: The Mobile Game&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span class="texttitle"&gt;Ce que je peux déjà faire&lt;br&gt;&lt;br&gt;&lt;/span&gt;Ma plus grande expérience prêt à l'emploi est en technologie Java mobile telle que Midp 2.0 ou Android. Je suis aussi formé au C/C++, C# ainsi que d'autres langages web ou de script que j'utilise souvent lors de projets personels ou lors de création d'outils pour faciliter le travail. J'ai aussi acquis beaucoup d'expérience en programmation bas niveau, en optimisation et en débuggage.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Je sais que je peux être un très bon ajout à votre équipe; mais si vous ne me croyez pas, faites plutôt confiance à Chuck!&lt;br&gt;&lt;br&gt;&lt;/div&gt;</value>
-  </data>
-  <data name="PageResource1.Title" xml:space="preserve">
-    <value>Christian Ferrario - Programmeur de jeux</value>
-  </data>
-  <data name="TabPanel1Resource1.HeaderText" xml:space="preserve">
-    <value>Bio</value>
-  </data>
-  <data name="TabPanel2Resource1.HeaderText" xml:space="preserve">
-    <value>Expérience Pro</value>
-  </data>
-  <data name="TabPanel3Resource1.HeaderText" xml:space="preserve">
-    <value>Projets Scolaires</value>
-  </data>
-  <data name="TabPanel4Resource1.HeaderText" xml:space="preserve">
-    <value>Projets Perso</value>
-  </data>
-  <data name="TabPanel5Resource1.HeaderText" xml:space="preserve">
-    <value>CV</value>
-  </data>
-  <data name="TabPanel6Resource1.HeaderText" xml:space="preserve">
-    <value>Examples de Code</value>
-  </data>
-</root>
