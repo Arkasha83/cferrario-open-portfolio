@@ -21,12 +21,11 @@
         <span class="biotext">
             I've been a software engineer for games since 2007, a moder since the early 2000's and a gamer since the early 90's.<br />
             <br/>
-            After working in studios in Montreal, New York and Paris, I now work as the main AI programmer and am part of the Physics 
-            team for London based Slightly Mad Studios, where I've been contributing on PC and console titles such as Project CARS, Project CARS 2 and Red Bull Air
-            Race - The Game as well as other big unannounced ambitious projects. 
+            After working for studios in Montreal, New York, Paris, London and Hamburg, I now work for Meta owned Ready at Dawn in sunny California 
+            where I have the privilege to help making amazing VR games. 
             <br/>
             <br/>
-            When not programming, you usually can find me on the diamond as I've been playing, coaching and umpiring baseball for more then 20 years.
+            When not programming, you usually can find me on the diamond as I've been playing, coaching and umpiring baseball since the mid 90s .
             <br/>
             <br/>
         </span>
@@ -39,7 +38,7 @@
         <br/>
         <br/>
         <div><img src="Images/img/ss/bio/1.jpg" width="430"/></div>
-        <div><iframe width="430" height="342" src="https://www.youtube.com/embed/PsaUd8dfiHU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
+        <div><iframe width="430" height="342" src="https://www.youtube.com/embed/vS44cwfrTKA?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
         <div><img src="Images/personal3.jpg" width="430"/></div>
     </div>
     <div class="float-right">
@@ -49,10 +48,10 @@
         <img src="Images/as7_thumbnail.jpg" width="500" height="300" style="cursor:pointer" />
         </div>
         <div style="display:none">
-            <div><iframe width="500" height="300" src="https://www.youtube.com/embed/aHstQVfbUVU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
+            <div><iframe width="500" height="300" src="https://www.youtube.com/embed/aHstQVfbUVU?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
         </div>
-        <div><iframe width="500" height="300" src="https://www.youtube.com/embed/eAK9LKWlkZ0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
-        <div><iframe width="500" height="300" src="https://www.youtube.com/embed/DQIbUBbNGd0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
+        <div><iframe width="500" height="300" src="https://www.youtube.com/embed/eAK9LKWlkZ0?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
+        <div><iframe width="500" height="300" src="https://www.youtube.com/embed/DQIbUBbNGd0?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
         <div><img src="Images/baseball2.jpg" width="500"/></div>
     </div>
     <br style="clear:both;"/>
