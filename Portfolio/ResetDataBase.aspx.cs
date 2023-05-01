@@ -31,9 +31,9 @@ public partial class ResetDataBase : System.Web.UI.Page
             //myCommand.ExecuteNonQuery();
             // MessageBox.Show("DataBase is Created Successfully", "MyProgram", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-        catch (System.Exception ex)
+        catch (System.Exception)
         {
-            int x = 0;
+            //int x = 0;
             //            MessageBox.Show(ex.ToString(), "MyProgram", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         finally
