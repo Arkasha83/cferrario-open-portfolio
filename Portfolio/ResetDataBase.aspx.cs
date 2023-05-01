@@ -40,7 +40,6 @@ public partial class ResetDataBase : System.Web.UI.Page
         {
             if (myConn.State == ConnectionState.Open)
             {
-               // BaseballTables.DropAndCreateTables(myConn);
                 myConn.Close();
             }
         }
@@ -48,7 +47,5 @@ public partial class ResetDataBase : System.Web.UI.Page
     protected void MyTimer_Tick(object sender, EventArgs e)
     {
         UpdatePanel1.Update();
-        Label1.Text = BaseballTables.OutputText1;
-        Label2.Text = BaseballTables.OutputText2;
     }
 }

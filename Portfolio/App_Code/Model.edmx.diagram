@@ -5,28 +5,7 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="571597b4a3724daa8489591a12cfe3fa" Name="Diagram1" ZoomLevel="101">
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.AllstarFull" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Appearance" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.AwardsManager" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.AwardsPlayer" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.AwardsShareManager" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.AwardsSharePlayer" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Batting" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.BattingPost" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.HallOfFame" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Manager" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.ManagersHalf" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Master" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Pitching" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.PitchingPost" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Salary" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.School" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.SchoolsPlayer" Width="1.5" PointX="12.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.SeriesPost" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.Team" Width="1.5" PointX="8.75" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.TeamsFranchis" Width="1.5" PointX="10.75" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.TeamsHalf" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.project" Width="1.5" PointX="6.8047642627753149" PointY="22.697401549060551" />
+        <EntityTypeShape EntityType="hrisfhot3014com12985_Model.project" Width="1.5" PointX="0.75" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

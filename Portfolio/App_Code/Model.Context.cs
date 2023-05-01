@@ -24,26 +24,5 @@ public partial class Entities : DbContext
         throw new UnintentionalCodeFirstException();
     }
 
-    public DbSet<AllstarFull> AllstarFulls { get; set; }
-    public DbSet<Appearance> Appearances { get; set; }
-    public DbSet<AwardsManager> AwardsManagers { get; set; }
-    public DbSet<AwardsPlayer> AwardsPlayers { get; set; }
-    public DbSet<AwardsShareManager> AwardsShareManagers { get; set; }
-    public DbSet<AwardsSharePlayer> AwardsSharePlayers { get; set; }
-    public DbSet<Batting> Battings { get; set; }
-    public DbSet<BattingPost> BattingPosts { get; set; }
-    public DbSet<HallOfFame> HallOfFames { get; set; }
-    public DbSet<Manager> Managers { get; set; }
-    public DbSet<ManagersHalf> ManagersHalves { get; set; }
-    public DbSet<Master> Masters { get; set; }
-    public DbSet<Pitching> Pitchings { get; set; }
-    public DbSet<PitchingPost> PitchingPosts { get; set; }
-    public DbSet<Salary> Salaries { get; set; }
-    public DbSet<School> Schools { get; set; }
-    public DbSet<SchoolsPlayer> SchoolsPlayers { get; set; }
-    public DbSet<SeriesPost> SeriesPosts { get; set; }
-    public DbSet<Team> Teams { get; set; }
-    public DbSet<TeamsFranchis> TeamsFranchises { get; set; }
-    public DbSet<TeamsHalf> TeamsHalves { get; set; }
     public DbSet<project> projects { get; set; }
 }

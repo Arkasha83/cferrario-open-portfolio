@@ -79,7 +79,7 @@ public partial class Projects : Page
     }
     protected void EntityDataSource1_ContextCreating(object sender, EntityDataSourceContextCreatingEventArgs e)
     {
-        var db = new Entities();
+        Entities db = new Entities();
         e.Context = (db as IObjectContextAdapter).ObjectContext;
     }
     protected void GridView1_DataBound(object sender, GridViewRowEventArgs e)

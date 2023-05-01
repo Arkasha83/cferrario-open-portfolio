@@ -8,7 +8,7 @@
 
     <section class="contact">
         <div class="float-left most">
-            Linked in is my prefered method of contact for professional inquiries. I also keep an updated résumé of my past experiences at Gameloft, Creator Video Games and DeValley Studio there.
+            Linked in is my prefered method of contact for professional inquiries.
             <br/>
             <br/>
             <a href="https://ph.linkedin.com/pub/christian-ferrario/14/500/767">
