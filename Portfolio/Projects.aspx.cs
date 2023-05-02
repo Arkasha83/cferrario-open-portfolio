@@ -21,7 +21,7 @@ public partial class Projects : Page
             e.Row.Cells[0].Controls.Clear();
             Image img = new Image();
             img.ImageUrl = (imgText);
-            img.Width = 160;
+            img.Width = 240;
             e.Row.Cells[0].Controls.Add(img);
             
             e.Row.Cells[1].Controls.Clear();
