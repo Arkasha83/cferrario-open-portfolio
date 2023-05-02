@@ -3,7 +3,7 @@
     <project ID='21' year='2023' skills='3D-C++-VR-Networking-Artificial Intelligence' company='Ready At Dawn' image='Images/img/ss/rad/2.jpg' name='Unanounced VR Title' />
     <project ID='20' year='2022' skills='3D-PC-C++-VR-Debugging' company='Ready At Dawn' image='Images/img/ss/rad/1.jpg' name='Echo VR (Maintenance)' />
     <project ID='19' year='2021' skills='3D-PC-C#-Unity' company='Statespace' image='Images/img/ss/aimlab/1.jpg' name='Aim Lab : Creator Studio' />
-    <project ID='18' year='2020' skills='2D-Mobile-Menus-Baseball' company='Out of the Park Developments' image='Images/img/ss/ootp/1.png' name='OOTP Go'  />
+    <project ID='18' year='2020' skills='2D-Mobile-Menus-Baseball-Simulation' company='Out of the Park Developments' image='Images/img/ss/ootp/1.png' name='OOTP Go'  />
     <project ID='17' year='2020' skills='3D-PC-XBoxOne-PS4-C++-Action-Adventure' company='Slightly Mad Studios' image='Images/img/ss/ffc/1.jpg' name='Fast and Furious Crossroads' />
     <project ID='16' year='2017' skills='3D-PC-XBox360-PS4-C++-Artificial Intelligence-Racing-VR' company='Slightly Mad Studios' image='Images/img/logos/Project-Cars-22.jpg' name='Project CARS 2' />
     <project ID='1'  year='2016' skills='3D-PC-C++-Artificial Intelligence-Pipeline Tools-Racing-Flight Simulation' company='Slightly Mad Studios' image='Images/img/ss/rbar/1.jpg' name='Red Bull Air Race - The Game'  />

@@ -187,7 +187,10 @@
     <value />
   </data>
   <data name="Dungeon_Hunter_5_extra" xml:space="preserve">
-    <value />
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=YvnQMW4T5Ds"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=u4gQQ74MX-o"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
   </data>
   <data name="Unanounced_IOS_Unreal_Game_extra" xml:space="preserve">
     <value />
@@ -352,7 +355,7 @@
   <data name="Project_CARS" xml:space="preserve">
     <value>
 		&lt;br/&gt;	
-		&lt;b&gt;Project CARS&lt;/b&gt; was a sim racing video game series developed by Slightly Mad Studios and published by Bandai Namco Entertainment. 
+		&lt;b&gt;Project CARS&lt;/b&gt; is a sim racing video game series developed by Slightly Mad Studios and published by Bandai Namco Entertainment. 
 		&lt;br /&gt;&lt;br /&gt;
 		I joined the team to take over the Driver Racing AI duties within the Physics Engineering team.
             &lt;br /&gt;&lt;br /&gt;
@@ -386,22 +389,28 @@
 &lt;/div&gt;</value>
   </data>
   <data name="Project_CARS_2" xml:space="preserve">
-    <value>&lt;br/&gt;	&lt;a href="http://www.projectcarsgame.com/"&gt;Project CARS&lt;/a&gt; (&lt;a href="https://en.wikipedia.org/wiki/Project_CARS_2"&gt;wiki&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;
-Took the AI duties of this project from beginning to end building on the work done in the first iteration of the franchise.
+	<value>
+		&lt;br/&gt;	
+		&lt;b&gt;Project CARS 2&lt;/b&gt; is a multiple award winning and top selling Motorsport Racing Simulator released in 2017 by Slightly Mad Studios. 
+		&lt;br /&gt;&lt;br /&gt;
+		Incremented on the AI functionality from Project CARS to improve overtaking and inputs. Also added AI for extra game modes like Oval Racing, Kart and Rallycross (drifting).
             &lt;br /&gt;&lt;br /&gt;
             Reviews :&lt;br /&gt;
-            &lt;a href="http://www.metacritic.com/game/pc/project-cars-2"&gt;Metacritic&lt;/a&gt; Score:86/100
-&lt;br/&gt;&lt;br/&gt;</value>
+            &lt;a href="https://www.wired.co.uk/article/games-of-the-year-2017"&gt;WIRED&lt;/a&gt; 2017 Best Racing Game
+		&lt;br/&gt;&lt;br/&gt;
+	</value>
   </data>
   <data name="Project_CARS_2_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
-&lt;a href="http://www.projectcarsgame.com/"&gt;Official website&lt;/a&gt;&lt;br /&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=0YrrK92fQmk"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
-&lt;a class="popup" href="https://www.youtube.com/watch?v=xRkfDBK3rDk"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=C7ylW7SaiOM"&gt;AI review&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
   <data name="Aim_Lab_-_Creator_Studio" xml:space="preserve">
-    <value>&lt;br /&gt;
+	<value>
+		&lt;br/&gt;	
+		&lt;b&gt;Aim Lab&lt;/b&gt; is an Aim Trainer helping everyone from casual to pro players. Using customizable tasks, scenarios and built in analysis tools, Aimlabs can help players warm up, improve or rank up on the Aimlabs leaderboards.
+		&lt;br /&gt;&lt;br /&gt;
             During my time at Statespace, I mainly worked on Creator Studio, an ingame editor that lets users build training tasks in             Aim Lab from scratch. They can create custom maps and bots which have various behaviors and custom pathing.&lt;br /&gt;
             &lt;br /&gt;
 
@@ -410,29 +419,65 @@ Took the AI duties of this project from beginning to end building on the work do
             &lt;br /&gt;&lt;a href="https://aimprac.com/aimlab-review-11-things-you-should-know/"&gt;Aimprac&lt;/a&gt;
             &lt;br /&gt;&lt;a href="https://www.metacritic.com/game/pc/aim-lab"&gt;Metacritic&lt;/a&gt; Score: 6.4&lt;br/&gt;&lt;br/&gt;</value>
   </data>
-  <data name="Aim_Lab_-_Creator_Studio_extra" xml:space="preserve">
-    <value />
+  <data name="Aim_Lab_-_Creator_Studio_extra" xml:space="preserve">    
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=qGaZYEu_ug4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=vn_ZmnWRKEM"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
   </data>
   <data name="Echo_VR_(Maintenance)" xml:space="preserve">
-    <value />
+	<value>
+		&lt;br/&gt;	
+		&lt;b&gt;Echo VR&lt;/b&gt; is game-studio Ready At Dawn's fast-paced first-person competitive multiplayer game where players control robotic Echo-Units to face off in zero-gravity environment. A full-contact sport, players use the Oculus Touch platform to grab, punch, glide, and boost their way around the virtual arena in an attempt to get the disc into the opponent's goal.
+		&lt;br /&gt;&lt;br /&gt;
+            I joined Ready At Dawn during the final year of Echo VR's support, as such I mainly worked on bug fixing and support while learning the RAD Engine. I did lead a project to revamp Goal Validation to make it more multiplayer reliable.&lt;br /&gt;
+            &lt;br /&gt;
+	</value>
   </data>
   <data name="Echo_VR_(Maintenance)_extra" xml:space="preserve">
-    <value />
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=vS44cwfrTKA"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=riD-IDlnbG8"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
   </data>
   <data name="Fast_and_Furious_Crossroads" xml:space="preserve">
-    <value />
+	<value>
+		&lt;br/&gt;	
+		&lt;b&gt;Fast and Furious Crossroads&lt;/b&gt; is a racing and action role-playing video game based on the Fast and Furious film franchise. It was developed by Slightly Mad Studios, a subsidiary studio of the British developer Codemasters, and published by Bandai Namco Entertainment.
+		&lt;br /&gt;&lt;br /&gt;
+            I unfortunately did not see this project through, but had enough time to port our simulation AI into it as well as implement a new Traffic Car system.&lt;br /&gt;
+            &lt;br /&gt;
+	</value>
   </data>
   <data name="Fast_and_Furious_Crossroads_extra" xml:space="preserve">
-    <value />
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=39UWFREk4I4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=P-S7fexxCx0"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
   </data>
   <data name="OOTP_GO" xml:space="preserve">
-    <value />
+	<value>
+		&lt;br/&gt;	
+		&lt;b&gt;Out Of The Park Baseball&lt;/b&gt; is a text-based baseball simulation for career, historical, and fictional play.
+		&lt;br /&gt;&lt;br /&gt;
+            During my time at OOTP I assisted in making a mobile version of the highly successful PC game as well as explored an American football project.&lt;br /&gt;
+            &lt;br /&gt;
+	</value>
   </data>
   <data name="OOTP_GO_extra" xml:space="preserve">
-    <value />
+    <value>&lt;div class="cpojer-links"&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=pE8xG2I4RLI"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+&lt;a class="popup" href="https://www.youtube.com/watch?v=RRzqnnwvpns"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
+&lt;/div&gt;</value>
   </data>
   <data name="Unanounced_VR_Title" xml:space="preserve">
-    <value />
+	<value>
+		&lt;br/&gt;	
+		&lt;b&gt;Ready At Dawn Project&lt;/b&gt; is not something I can comment on, but I will link &lt;a href="https://www.roadtovr.com/ready-at-dawn-working-new-project-vr-no-plans-lone-echo-combat-quest"&gt;this article&lt;/a&gt; that suggests that RAD is “in the early stages of working on new, exciting projects and can’t wait to share more information about them in the future.”
+		&lt;br /&gt;&lt;br /&gt;
+            During my time on this project, I worked in both Multiplayer and Enemy Combat/Enemy AI pods.&lt;br /&gt;
+            &lt;br /&gt;
+	</value>
   </data>
   <data name="Unanounced_VR_Title_extra" xml:space="preserve">
     <value />
