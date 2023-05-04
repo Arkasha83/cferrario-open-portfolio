@@ -6,11 +6,6 @@
     <meta charset="utf-8" />
     <title>Chris Ferrario - Software Engineer - <%: Page.Title %></title>
     <link href="~/Content/Site.css" rel="stylesheet" />
-    <link href="Scripts/coin-slider-styles.css" rel="stylesheet" type="text/css" />
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="Scripts/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 </head>
 <body>
@@ -28,7 +23,9 @@
                         <ul id="menu">
                             <li><a id="A2" runat="server" href="~/">Bio</a></li>
                             <li><a id="A3" runat="server" href="~/Projects.aspx">Projects</a></li>
+                            <li><a id="A4" runat="server" href="~/Game.aspx">Game Example</a></li>
                             <li><a id="A5" runat="server" href="~/Contact.aspx">Contact & Résumé</a></li>
+                            <li><a id="A6" runat="server" href="https://www.youtube.com/@chrisferrario"><img width="40" src="Images/img/logos/yt_icon_rgb.png"/></a></li>
                         </ul>
                     </nav>
                 </div>
