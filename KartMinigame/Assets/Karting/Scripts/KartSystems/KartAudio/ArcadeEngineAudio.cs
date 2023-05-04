@@ -16,6 +16,8 @@ namespace KartGame.KartSystems
         public AudioSource RunningSound;
         [Tooltip("What audio clip should play when the kart is drifting")]
         public AudioSource Drift;
+        [Tooltip("Maximum Volume the Idle sound will be at")]
+        [Range(0.1f, 1.0f)] public float IdleSoundMaxVolume = 0.5f;
         [Tooltip("Maximum Volume the running sound will be at full speed")]
         [Range(0.1f, 1.0f)]public float RunningSoundMaxVolume = 1.0f;
         [Tooltip("Maximum Pitch the running sound will be at full speed")]
@@ -43,7 +45,7 @@ namespace KartGame.KartSystems
                 Drift.volume = arcadeKart.IsDrifting && arcadeKart.GroundPercent > 0.0f ? arcadeKart.Rigidbody.velocity.magnitude / arcadeKart.GetMaxSpeed() : 0.0f;
             }
 
-            IdleSound.volume    = Mathf.Lerp(0.6f, 0.0f, kartSpeed * 4);
+            IdleSound.volume    = Mathf.Lerp(0.6f * IdleSoundMaxVolume, 0.0f, kartSpeed * 4);
 
             if (kartSpeed < 0.0f)
             {
