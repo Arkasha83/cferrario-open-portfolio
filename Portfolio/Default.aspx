@@ -50,7 +50,7 @@
         <br/>
         <div><img src="Images/img/ss/bio/1.jpg" width="430"/></div>
         <div><iframe width="430" height="342" src="https://www.youtube.com/embed/vS44cwfrTKA?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
-        <div><img src="Images/personal3.jpg" width="430"/></div>
+        <div><iframe width="430" height="342" src="https://www.youtube.com/embed/pE8xG2I4RLI?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
     </div>
     <div class="float-right">
         <br/>
@@ -61,9 +61,9 @@
         <div style="display:none">
             <div><iframe width="500" height="300" src="https://www.youtube.com/embed/aHstQVfbUVU?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
         </div>
-        <div><iframe width="500" height="300" src="https://www.youtube.com/embed/qGaZYEu_ug4?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
+        <div><iframe width="500" height="300" src="https://www.youtube.com/embed/xHU2YcFqRHk?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
         <div><iframe width="500" height="300" src="https://www.youtube.com/embed/DQIbUBbNGd0?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
-        <div><img src="Images/baseball2.jpg" width="500"/></div>
+        <div><iframe width="500" height="352" src="https://www.youtube.com/embed/qGaZYEu_ug4?feature=player_detailpage" frameborder="0" allowfullscreen="true"></iframe></div>
     </div>
     <br style="clear:both;"/>
 </div>
