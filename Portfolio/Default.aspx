@@ -6,28 +6,39 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     
-<hgroup class="title">
-    <h1><br /><%: Title %></h1>
-</hgroup>
-    
-
 <div>
     <div class="float-left most">
         <br/>
-        <span class="biotitle">
-        Allow me to tell you about myself:
-        </span>
-        <br/>
         <span class="biotext">
-            I've been a software engineer for games since 2007, a moder since the early 2000's and a gamer since the early 90's.<br />
-            <br/>
-            After working for studios in Montreal, New York, Paris, London and Hamburg, I now work for Meta owned Ready at Dawn in sunny California 
-            where I have the privilege to help making amazing VR games. 
-            <br/>
-            <br/>
-            When not programming, you usually can find me on the diamond as I've been playing, coaching and umpiring baseball since the mid 90s .
-            <br/>
-            <br/>
+          <h2>About Me</h2>
+          <p>
+            Hi, I’m <strong>Christian Ferrario</strong>, a Senior Gameplay and AI Programmer with more than 
+            17 years of experience building game systems across genres, platforms, and technologies. 
+            I specialize in <strong>advanced AI, gameplay programming, and engine-level problem solving</strong>, 
+            with deep hands-on expertise in C++, C#, Unreal Engine, Unity, and a wide range of proprietary engines.
+          </p>
+
+          <p>
+            Over the years, I’ve had the chance to work on a diverse set of projects—from 
+            <strong>racing AI and navigation systems for titles like Project CARS</strong> to 
+            <strong>VR gameplay features for Echo VR</strong>, as well as AI, gameplay, and world-building 
+            systems for <strong>Aim Lab</strong> and several unannounced projects. I enjoy tackling complex 
+            technical challenges, whether that’s crafting convincing vehicle behavior, building tools for 
+            designers, optimizing real-time systems, or experimenting with machine-learning approaches to 
+            enhance gameplay.
+          </p>
+
+          <p>
+            I’ve collaborated with teams across the US, Canada, Europe, and Asia, including Ready at Dawn, Facebook/Meta, 
+            Slightly Mad Studios, Statespace, Out of the Park Baseball and others. Today, I work as a 
+            <strong>Video Game Programming Consultant</strong>, helping studios solve difficult gameplay and AI 
+            problems, improve performance and stability, and bring ambitious ideas from prototype to polished experience.
+          </p>
+
+          <p>
+            I’m passionate about creating systems that feel intuitive, responsive, and alive—and I’m always excited 
+            to take on new challenges that push the boundaries of what games can do.
+          </p>
         </span>
     </div>
     <br style="clear:both;"/>
