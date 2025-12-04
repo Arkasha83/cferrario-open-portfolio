@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <projects>
-    <project ID='21' year='2023' skills='3D-C++-VR-Networking-Artificial Intelligence' company='Ready At Dawn' image='Images/img/ss/rad/2.jpg' name='Unanounced VR Title' />
-    <project ID='20' year='2022' skills='3D-PC-C++-VR-Debugging' company='Ready At Dawn' image='Images/img/ss/rad/1.jpg' name='Echo VR (Maintenance)' />
+    <project ID='22' year='2025' skills='3D-C++-Racing-Networking-Artificial Intelligence' company='Straight4' image='' name='Project Motor Racing' />
+    <project ID='21' year='2023' skills='3D-C++-VR-Networking-Artificial Intelligence' company='Ready At Dawn/Meta' image='Images/img/ss/rad/2.jpg' name='Unanounced VR Title' />
+    <project ID='20' year='2022' skills='3D-PC-C++-VR-Debugging' company='Ready At Dawn/Meta' image='Images/img/ss/rad/1.jpg' name='Echo VR (Maintenance)' />
     <project ID='19' year='2021' skills='3D-PC-C#-Unity' company='Statespace' image='Images/img/ss/aimlab/1.jpg' name='Aim Lab : Creator Studio' />
     <project ID='18' year='2020' skills='2D-Mobile-Menus-Baseball-Simulation' company='Out of the Park Developments' image='Images/img/ss/ootp/1.png' name='OOTP Go'  />
     <project ID='17' year='2020' skills='3D-PC-XBoxOne-PS4-C++-Action-Adventure' company='Slightly Mad Studios' image='Images/img/ss/ffc/1.jpg' name='Fast and Furious Crossroads' />
