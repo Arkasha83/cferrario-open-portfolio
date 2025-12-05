@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+    <!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,65 +59,112 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+        <xsd:element name="root" msdata:IsDataSet="true">
             <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" use="required" type="xsd:string" />
+                            <xsd:attribute name="type" type="xsd:string" />
+                            <xsd:attribute name="mimetype" type="xsd:string" />
+                            <xsd:attribute ref="xml:space" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string" />
+                            <xsd:attribute name="name" type="xsd:string" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                            <xsd:attribute ref="xml:space" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
             </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="Asphalt_7_-_Heat" xml:space="preserve">
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Project_Motor_Racing" xml:space="preserve">
+        <value>&lt;br /&gt;
+		    &lt;b&gt;Project Motor Racing&lt;/b&gt;  
+		    &lt;br /&gt; &lt;br /&gt;
+		    Was the principle AI programmer for this new Racing IP. &lt;br /&gt;&lt;br /&gt;
+            Set up an advanced AI racing solution in Unreal Engine as well as navigation tracking and authoring tools.&lt;br /&gt;&lt;br /&gt;
+            Mid way through the project, ported the code into the Giants Engine and set up tools for live tuning and modding.&lt;br /&gt;&lt;br /&gt;
+
+            "Project Motor Racing" is a recently released sim racing video game developed by Straight4 Studios and published by GIANTS Software. It is considered a spiritual successor to the Project CARS series, developed by many of the same key individuals
+           	    &lt;br /&gt;&lt;br /&gt; Reviews :&lt;br /&gt;
+                Hoping to get better reviews in the upcoming updates.
+		    &lt;br /&gt;
+		    &lt;br /&gt;
+	    </value>
+      </data>
+    <data name="Project_Motor_Racing_extra" xml:space="preserve">
+        <value>&lt;div class="cpojer-links"&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=dMerxYOaOm8"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=3bdKDsJcNUw"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=zQm5lYc7Bvo"&gt;Dev Diary 1&lt;/a&gt;&lt;br/&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=fUwnZoQzCBc"&gt;Gameplay 2&lt;/a&gt;&lt;br/&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=XtzlBdmZXuA"&gt;Gameplay 3&lt;/a&gt;&lt;br/&gt;
+		    &lt;/div&gt;	
+	    </value>
+    </data>
+    <data name="Lap_Of_Legends" xml:space="preserve">
+        <value>&lt;br /&gt;
+		    &lt;b&gt;Lap Of Legends&lt;/b&gt;  
+		    &lt;br /&gt; &lt;br /&gt;
+		    Participated in setting up the AI code to portray classic racers to compete agaisnt Logan Sargent on an F1 TV Show.&lt;br /&gt;&lt;br /&gt;
+
+            "Lap of Legends" is a 2024 television special and innovative sports event created by Michelob ULTRA and Williams Racing that featured the first-ever real-vs.-virtual Formula 1 race. &lt;br /&gt;&lt;br /&gt;
+            The event pitted current F1 driver Logan Sargeant against AI-powered augmented reality (AR) avatars of six legendary Williams Racing drivers. 
+           	    &lt;br /&gt;&lt;br /&gt; Reviews :&lt;br /&gt;
+                &lt;a href="https://www.imdb.com/title/tt32545175/"&gt;IMDB&lt;/a&gt; Score:9.6/10, 
+            
+		    &lt;br /&gt;
+		    &lt;br /&gt;
+	    </value>
+      </data>
+    <data name="Lap_Of_Legends_extra" xml:space="preserve">
+        <value>&lt;div class="cpojer-links"&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=0C3VQ6MwfIE"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
+		    &lt;a class="popup" href="https://www.youtube.com/watch?v=aVhVpyW7uL4"&gt;Behind the Scenes&lt;/a&gt;&lt;br/&gt;
+		    &lt;/div&gt;	
+	    </value>
+    </data>
+    <data name="Asphalt_7_-_Heat" xml:space="preserve">
     <value>&lt;br /&gt;
 		&lt;b&gt;Asphalt 7 : Heat&lt;/b&gt; is the follow up to Adrenaline. 
 		&lt;br /&gt; &lt;br /&gt;
@@ -132,7 +179,7 @@
 		&lt;br /&gt;
 	</value>
   </data>
-  <data name="Asphalt_7_-_Heat_extra" xml:space="preserve">
+    <data name="Asphalt_7_-_Heat_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 		&lt;a class="popup" href="https://www.youtube.com/watch?v=OXP9Rcr7OLQ"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
 		&lt;a class="popup" href="https://www.youtube.com/watch?v=vpQnWQYoRSg"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
@@ -141,7 +188,7 @@
 		&lt;/div&gt;	
 	</value>
   </data>
-  <data name="Unanounced_IOS_Racer" xml:space="preserve">
+    <data name="Unanounced_IOS_Racer" xml:space="preserve">
     <value>
 		&lt;br /&gt;
 		Unreleased.
@@ -150,7 +197,7 @@
 		&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 	</value>
   </data>
-  <data name="Dungeon_Hunter_5" xml:space="preserve">
+    <data name="Dungeon_Hunter_5" xml:space="preserve">
     <value>		
 		&lt;br /&gt;
 		&lt;b&gt;Dungeon Hunter 5&lt;/b&gt; is a 2015 hack and slash role-playing game developed and published by Gameloft. 
@@ -159,7 +206,7 @@
 		&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 	</value>
   </data>
-  <data name="Unanounced_IOS_Unreal_Game" xml:space="preserve">
+    <data name="Unanounced_IOS_Unreal_Game" xml:space="preserve">
     <value>
 		&lt;br /&gt;Unreleased.
 		&lt;br /&gt;
@@ -168,7 +215,7 @@
 		&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 	</value>
   </data>
-  <data name="Fast_Five_the_Movie_-_Official_Game" xml:space="preserve">
+    <data name="Fast_Five_the_Movie_-_Official_Game" xml:space="preserve">
     <value>
 		&lt;br /&gt;
 		&lt;b&gt;Fast Five the Movie: Official Game&lt;/b&gt; is a racing video game developed and published by Gameloft for Android, iOS, J2ME and MacOS. 
@@ -177,25 +224,25 @@
 		Asphalt 6's system as a base for their game.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
 	</value>
   </data>
-  <data name="Fast_Five_the_Movie_-_Official_Game_extra" xml:space="preserve">
+    <data name="Fast_Five_the_Movie_-_Official_Game_extra" xml:space="preserve">
     <value>
 		&lt;div class="cpojer-links"&gt;
 		&lt;a class="popup" href="https://www.youtube.com/watch?feature=player_embedded&amp;v=mKHyI-AAP00"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 	</value>
   </data>
-  <data name="Unanounced_IOS_Racer_extra" xml:space="preserve">
+    <data name="Unanounced_IOS_Racer_extra" xml:space="preserve">
     <value />
   </data>
-  <data name="Dungeon_Hunter_5_extra" xml:space="preserve">
+    <data name="Dungeon_Hunter_5_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=YvnQMW4T5Ds"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=u4gQQ74MX-o"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Unanounced_IOS_Unreal_Game_extra" xml:space="preserve">
+    <data name="Unanounced_IOS_Unreal_Game_extra" xml:space="preserve">
     <value />
   </data>
-  <data name="Asphalt_6_-_Adrenaline" xml:space="preserve">
+    <data name="Asphalt_6_-_Adrenaline" xml:space="preserve">
     <value>
 	&lt;br/&gt;
 		&lt;b&gt;Asphalt 6 : Adrenaline&lt;/b&gt; is a 2010 Gameloft Action-Racing game.
@@ -209,14 +256,14 @@
             &lt;br /&gt;&lt;a href="http://www.slidetoplay.com/review/asphalt-6-adrenaline-review/"&gt;Slide to Play&lt;/a&gt; Score:3/4, Good,  
             &lt;br /&gt;&lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Asphalt+6%3A+Adrenaline/review.asp?c=33066"&gt;Pocket Gamer&lt;/a&gt; Score:9/10, Gold Award&lt;br/&gt;&lt;br/&gt;</value>
   </data>
-  <data name="Asphalt_6_-_Adrenaline_extra" xml:space="preserve">
+    <data name="Asphalt_6_-_Adrenaline_extra" xml:space="preserve">
     <value>
 &lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=qa7a2OQs5gM"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=UgDDNIHPb2Q"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="GT_Racing_-_Motor_Academy" xml:space="preserve">
+    <data name="GT_Racing_-_Motor_Academy" xml:space="preserve">
     <value>&lt;br /&gt;&lt;b&gt;GT Racing : Motor Academy&lt;/b&gt; is a 2010 racing video game, developed and published by Gameloft as part of the GT Racing series. 
 		&lt;br /&gt;&lt;br /&gt; 
 		My first project in the Gameloft Montreal Studio, worked mostly on menus, push notifications and debugging.
@@ -230,13 +277,13 @@
             &lt;br /&gt;&lt;a href="http://www.pocketgamer.co.uk/r/iPhone/GT+Racing%3A+Motor+Academy+(iPhone)/review.asp?c=18327"&gt;Pocket Gamer&lt;/a&gt; Score:8/10, Silver Award&lt;br/&gt;&lt;br/&gt;
    </value>
   </data>
-  <data name="GT_Racing_-_Motor_Academy_extra" xml:space="preserve">
+    <data name="GT_Racing_-_Motor_Academy_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=bV6I6SgofeI"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=OMF4k-c7rRA"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;	</value>
   </data>
-  <data name="My_Hero-_Astronaut" xml:space="preserve">
+    <data name="My_Hero-_Astronaut" xml:space="preserve">
     <value>&lt;br /&gt; 
             VG Creator was a short lived studio that suffered like so many others from the hardships of 2008. Their best known work is &lt;a href="http://www.gamefaqs.com/ds/943220-horse-life/reviews/review-120613"&gt;Horse Life&lt;/a&gt; for the Nintendo DS.
 
@@ -245,13 +292,13 @@
 		I was main programmer on this project which required the building of a brand new game engine on top of the company's base library wrapper of the Nintedo DS functions.
 		&lt;br&gt;&lt;br&gt;</value>
   </data>
-  <data name="My_Hero-_Astronaut_extra" xml:space="preserve">
+    <data name="My_Hero-_Astronaut_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=vSnXYkqRYLA"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 (From 0:40 to 1:00)
 &lt;/div&gt;</value>
   </data>
-  <data name="Crash_of_the_Titans" xml:space="preserve">
+    <data name="Crash_of_the_Titans" xml:space="preserve">
     <value>&lt;br /&gt; 
             &lt;b&gt;Crash of The Titans&lt;/b&gt; This J2ME Midp 2.0 Beat Them Up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt;.&lt;br /&gt;&lt;br/&gt;
         I worked mostly on HUD, a dialogue engine, and general debugging.&lt;br /&gt;
@@ -262,13 +309,13 @@
             &lt;u&gt;IGN&lt;/u&gt; Score:6/10&lt;br/&gt;&lt;br/&gt;
             </value>
   </data>
-  <data name="Crash_of_the_Titans_extra" xml:space="preserve">
+    <data name="Crash_of_the_Titans_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=6t0jXbxwk-c"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=95CNJDBbxzo"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Holy_Wars" xml:space="preserve">
+    <data name="Holy_Wars" xml:space="preserve">
     <value>&lt;br/&gt;
             &lt;b&gt;Holy Wars&lt;/b&gt; is J2ME Midp 2.0 Beat Them Up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; is was one of their most successful titles.&lt;br/&gt;&lt;br/&gt;
              I was put in charge of porting and resolving a lot of device specific bugs as we then covered about 650 different Java devices.&lt;br/&gt;
@@ -276,13 +323,13 @@
             Reviews :&lt;br /&gt;
             &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Holy+Wars%3A+Sons+of+Enoch/review.asp?c=4926"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score:6/10&lt;br/&gt;&lt;br/&gt; </value>
   </data>
-  <data name="Holy_Wars_extra" xml:space="preserve">
+    <data name="Holy_Wars_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=DDY0BJ8iAC0"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=-kAUJj8AQj8"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Landers" xml:space="preserve">
+    <data name="Landers" xml:space="preserve">
     <value>&lt;br /&gt; 
             &lt;b&gt;Landers&lt;/b&gt; is J2ME Midp 2.0 Shoot Them Up game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; is one of my favorite mobile games.
 &lt;br/&gt;&lt;br/&gt;
@@ -294,14 +341,14 @@
             &lt;u&gt;Project Next&lt;/u&gt; Score : 90/100, Next Approved Award&lt;br/&gt; 
             &lt;br/&gt;</value>
   </data>
-  <data name="Landers_extra" xml:space="preserve">
+    <data name="Landers_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=NhxqAUoRQC4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="http://www.dailymotion.com/video/xc7db2_landers-invaders-iphone_videogames"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 
 &lt;/div&gt;</value>
   </data>
-  <data name="Nowhere" xml:space="preserve">
+    <data name="Nowhere" xml:space="preserve">
     <value>&lt;br /&gt; 
             &lt;b&gt;Nowhere&lt;/b&gt; is a J2ME Midp 2.0 Survival Horror Game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;
             I was the lead programmer for the development of this project and worked on some of the porting.&lt;br/&gt;
@@ -315,13 +362,13 @@
             &lt;u&gt;Mobile Game FAQs&lt;/u&gt; Score : 82/100, Silver Award&lt;br /&gt; 
             &lt;u&gt;Project Next&lt;/u&gt; Score : 89/100, Next Approved Award&lt;br /&gt;&lt;br /&gt; </value>
   </data>
-  <data name="Nowhere_extra" xml:space="preserve">
+    <data name="Nowhere_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=PzIkvNQPKCk"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=LD92v_W9-nk"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Spooks_the_Mobile_Game" xml:space="preserve">
+    <data name="Spooks_the_Mobile_Game" xml:space="preserve">
     <value>&lt;br /&gt; 
             &lt;b&gt;Spooks The Mobile Game&lt;/b&gt; is a J2ME Midp 2.0 Click and Play Game developed by Gameloft New York, based on the adventures of the British TV MI5 spies. &lt;br/&gt;&lt;br /&gt;
             I helped the Lead game designer with scripting while I also helped the two programmers debug the game before going gold.&lt;br/&gt;
@@ -330,12 +377,12 @@
             &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/Spooks/review.asp?c=10190"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score : 7/10, Bronze Award&lt;br&gt; 
             &lt;br/&gt;</value>
   </data>
-  <data name="Spooks_the_Mobile_Game_extra" xml:space="preserve">
+    <data name="Spooks_the_Mobile_Game_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=UKghqY8hvOw"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="The_Spiderwick_Chronicles" xml:space="preserve">
+    <data name="The_Spiderwick_Chronicles" xml:space="preserve">
     <value>&lt;br /&gt; 
             &lt;b&gt;The Spiderwick Chronicles&lt;/b&gt; is a J2ME Midp 2.0 Adventure Game developed by the French company &lt;a href="http://www.devalley.fr"&gt;DeValley Entertainment&lt;/a&gt; .&lt;br/&gt;&lt;br/&gt;
             I was the lead programmer for the development of this project.&lt;br/&gt;
@@ -346,13 +393,13 @@
             &lt;a href="http://www.pocketgamer.co.uk/r/Mobile/The+Spiderwick+Chronicles/review.asp?c=6085"&gt;Pocket Gamer.co.uk&lt;/a&gt; Score : 7/10, Bronze Award&lt;br&gt; 
             &lt;br/&gt; </value>
   </data>
-  <data name="The_Spiderwick_Chronicles_extra" xml:space="preserve">
+    <data name="The_Spiderwick_Chronicles_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=fk2E3sPZgEE"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=oPlabgqRz6A"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Project_CARS" xml:space="preserve">
+    <data name="Project_CARS" xml:space="preserve">
     <value>
 		&lt;br/&gt;	
 		&lt;b&gt;Project CARS&lt;/b&gt; is a sim racing video game series developed by Slightly Mad Studios and published by Bandai Namco Entertainment. 
@@ -364,13 +411,13 @@
 		&lt;br/&gt;&lt;br/&gt;
 	</value>
   </data>
-  <data name="Project_CARS_extra" xml:space="preserve">
+    <data name="Project_CARS_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=p6n3xNdBvJ8"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=nCYq7eiO5X4"&gt;Trailer 2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Red_Bull_Air_Race_-_The_Game" xml:space="preserve">
+    <data name="Red_Bull_Air_Race_-_The_Game" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Red Bull Air Race&lt;/b&gt; is a flight simulation that replicates the action of the real life Red Bull Air Races.
@@ -382,13 +429,13 @@
 		&lt;br/&gt;&lt;br/&gt;
 	</value>
   </data>
-  <data name="Red_Bull_Air_Race_-_The_Game_extra" xml:space="preserve">
+    <data name="Red_Bull_Air_Race_-_The_Game_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=Jl051AVeAZk"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=K9vYj4_GhKI"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Project_CARS_2" xml:space="preserve">
+    <data name="Project_CARS_2" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Project CARS 2&lt;/b&gt; is a multiple award winning and top selling Motorsport Racing Simulator released in 2017 by Slightly Mad Studios. 
@@ -400,13 +447,13 @@
 		&lt;br/&gt;&lt;br/&gt;
 	</value>
   </data>
-  <data name="Project_CARS_2_extra" xml:space="preserve">
+    <data name="Project_CARS_2_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=0YrrK92fQmk"&gt;Trailer 1&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=C7ylW7SaiOM"&gt;AI review&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Aim_Lab_-_Creator_Studio" xml:space="preserve">
+    <data name="Aim_Lab_-_Creator_Studio" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Aim Lab&lt;/b&gt; is an Aim Trainer helping everyone from casual to pro players. Using customizable tasks, scenarios and built in analysis tools, Aimlabs can help players warm up, improve or rank up on the Aimlabs leaderboards.
@@ -419,13 +466,13 @@
             &lt;br /&gt;&lt;a href="https://aimprac.com/aimlab-review-11-things-you-should-know/"&gt;Aimprac&lt;/a&gt;
             &lt;br /&gt;&lt;a href="https://www.metacritic.com/game/pc/aim-lab"&gt;Metacritic&lt;/a&gt; Score: 6.4&lt;br/&gt;&lt;br/&gt;</value>
   </data>
-  <data name="Aim_Lab_-_Creator_Studio_extra" xml:space="preserve">    
+    <data name="Aim_Lab_-_Creator_Studio_extra" xml:space="preserve">    
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=qGaZYEu_ug4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=vn_ZmnWRKEM"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Echo_VR_(Maintenance)" xml:space="preserve">
+    <data name="Echo_VR_(Maintenance)" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Echo VR&lt;/b&gt; is game-studio Ready At Dawn's fast-paced first-person competitive multiplayer game where players control robotic Echo-Units to face off in zero-gravity environment. A full-contact sport, players use the Oculus Touch platform to grab, punch, glide, and boost their way around the virtual arena in an attempt to get the disc into the opponent's goal.
@@ -434,13 +481,13 @@
             &lt;br /&gt;
 	</value>
   </data>
-  <data name="Echo_VR_(Maintenance)_extra" xml:space="preserve">
+    <data name="Echo_VR_(Maintenance)_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=vS44cwfrTKA"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=riD-IDlnbG8"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Fast_and_Furious_Crossroads" xml:space="preserve">
+    <data name="Fast_and_Furious_Crossroads" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Fast and Furious Crossroads&lt;/b&gt; is a racing and action role-playing video game based on the Fast and Furious film franchise. It was developed by Slightly Mad Studios, a subsidiary studio of the British developer Codemasters, and published by Bandai Namco Entertainment.
@@ -449,13 +496,13 @@
             &lt;br /&gt;
 	</value>
   </data>
-  <data name="Fast_and_Furious_Crossroads_extra" xml:space="preserve">
+    <data name="Fast_and_Furious_Crossroads_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=39UWFREk4I4"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=P-S7fexxCx0"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="OOTP_GO" xml:space="preserve">
+    <data name="OOTP_GO" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Out Of The Park Baseball&lt;/b&gt; is a text-based baseball simulation for career, historical, and fictional play.
@@ -464,13 +511,13 @@
             &lt;br /&gt;
 	</value>
   </data>
-  <data name="OOTP_GO_extra" xml:space="preserve">
+    <data name="OOTP_GO_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=pE8xG2I4RLI"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=RRzqnnwvpns"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;</value>
   </data>
-  <data name="Unanounced_VR_Title" xml:space="preserve">
+    <data name="Unanounced_VR_Title" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;Ready At Dawn Project&lt;/b&gt; is not something I can comment on, but I will link &lt;a href="https://www.roadtovr.com/ready-at-dawn-working-new-project-vr-no-plans-lone-echo-combat-quest"&gt;this article&lt;/a&gt; that suggests that RAD is “in the early stages of working on new, exciting projects and can’t wait to share more information about them in the future.”
@@ -479,10 +526,10 @@
             &lt;br /&gt;
 	</value>
   </data>
-  <data name="Unanounced_VR_Title_extra" xml:space="preserve">
+    <data name="Unanounced_VR_Title_extra" xml:space="preserve">
     <value />
   </data>
-  <data name="World_of_Speed" xml:space="preserve">
+    <data name="World_of_Speed" xml:space="preserve">
 	<value>
 		&lt;br/&gt;	
 		&lt;b&gt;World of Speed&lt;/b&gt; was a massively multiplayer online action racing video game initially developed by Slightly Mad Studios and My.com and subsequently by Saber Interactive, for the PC platform.
@@ -494,8 +541,8 @@
 		&lt;br/&gt;&lt;br/&gt;
 	</value>
 
-  </data> 
-  <data name="World_of_Speed_extra" xml:space="preserve">
+  </data>
+    <data name="World_of_Speed_extra" xml:space="preserve">
     <value>&lt;div class="cpojer-links"&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=-kXPH441Hvc"&gt;Trailer&lt;/a&gt;&lt;br/&gt;
 &lt;a class="popup" href="https://www.youtube.com/watch?v=K9vYj4_GhKI"&gt;Gameplay&lt;/a&gt;&lt;br/&gt;

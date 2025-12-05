@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <projects>
-    <project ID='22' year='2025' skills='3D-C++-Racing-Networking-Artificial Intelligence' company='Straight4' image='' name='Project Motor Racing' />
+    <project ID='22' year='2025' skills='3D-C++-Racing-Artificial Intelligence' company='Straight4' image='Images/img/logos/pmr.jpg' name='Project Motor Racing' />
+    <project ID='23' year='2024' skills='3D-C++-Racing-Artificial Intelligence' company='Straight4' image='Images/img/logos/lol.jpg' name='Lap Of Legends' />
     <project ID='21' year='2023' skills='3D-C++-VR-Networking-Artificial Intelligence' company='Ready At Dawn/Meta' image='Images/img/ss/rad/2.jpg' name='Unanounced VR Title' />
     <project ID='20' year='2022' skills='3D-PC-C++-VR-Debugging' company='Ready At Dawn/Meta' image='Images/img/ss/rad/1.jpg' name='Echo VR (Maintenance)' />
     <project ID='19' year='2021' skills='3D-PC-C#-Unity' company='Statespace' image='Images/img/ss/aimlab/1.jpg' name='Aim Lab : Creator Studio' />

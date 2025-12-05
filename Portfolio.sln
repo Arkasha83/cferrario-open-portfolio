@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Portfolio", "Portfolio\", "{89AA41FB-47F4-46E9-A1F6-E0707A31EC61}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/Portfolio"
 		Debug.AspNetCompiler.PhysicalPath = "Portfolio\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Portfolio\"
